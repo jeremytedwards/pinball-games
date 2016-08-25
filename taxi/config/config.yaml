@@ -505,8 +505,19 @@ slides:
 # Modes
 ####################
 modes:
+#  # Priority 1,000,000
+#  - tilt
+
+#  # Priority 500
+#  - high_score
+
+  # Priority 100
+  - base
+
+  # Priority 10
   - skill_shot
-  - default
+
+
 
 
 #################
