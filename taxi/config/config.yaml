@@ -51,174 +51,213 @@
 switches:
     ## 1 - Plumb Bob Tilt ##
     s_plumb_bob_tilt:
-        number: 00
+        number: 001
 
     ## 2 - Not Used ##
 
     ## 3 - Credit Button ##
     s_credit_button:
-        number: 00
+        number: 003
 
     ## 4 - Right Coin Chute ##
     s_r_coin_chute:
-        number: 00
+        number: 004
 
     ## 5 - Not Used ##
 
     ## 6 - Left Coin Chute ##
     s_l_coin_chute:
-        number: 00
+        number: 006
 
     ## 7 - Slam Tilt ##
     s_slam_tilt:
-        number: 00
+        number: 007
 
     ## 8 - High Score Reset ##
     s_high_score_reset:
-        number: 00
+        number: 008
 
     ## 9 - Playfield Tilt ##
     s_playfield_tilt:
-        number: 00
+        number: 009
 
     ## 10 - Outhole ##
     s_outhole:
-        number: 00
+        number: 010
 
     ## 11 - Ball Trough 1 ##
     s_ball_trough_1:
-        number: 00
+        number: 011
 
     ## 12 - Ball Trough 2 ##
     s_ball_trough_2:
-        number: 00
+        number: 012
 
     ## 13 - JoyRide Eject Hole ##
     s_joyride_eject:
-        number: 00
+        number: 013
 
     ## 14 - C Lane ##
     s_c_lane:
-        number: 00
+        number: 014
 
     ## 15 - A Lane ##
     s_a_lane:
-        number: 00
+        number: 015
 
     ## 16 - B Lane ##
     s_b_lane:
-        number: 00
+        number: 016
 
     ## 17 - Left Jet Bumper ##
     s_l_jet_bumper:
-        number: 00
+        number: 017
 
     ## 18 - Left Kicker ##
     s_l_kicker:
-        number: 00
+        number: 018
 
     ## 19 - Right Jet Bumper ##
     s_r_jet_bumper:
-        number: 00
+        number: 019
 
     ## 20 - Right Kicker ##
     s_r_kicker:
-        number: 00
+        number: 020
 
     ## 21 - Lower Jet Bumper ##
     s_lower_jet_bumper:
-        number: 00
+        number: 021
 
     ## 22 - Ball Shooter Lane ##
     s_ball_shooter_lane:
-        number: 00
+        number: 022
+        tags: playfield_active
 
     ## 23 - Top Lane Entry ##
     s_top_lane_entry:
-        number: 00
+        number: 023
 
     ## 24 - Carry Passengers Target ##
     s_carry_passengers_target:
-        number: 00
+        number: 024
 
     ## 25 - Left Ramp Entry ##
     s_l_ramp_entry:
-        number: 00
+        number: 025
 
     ## 26 - Right Ramp Entry ##
     s_r_ramp_entry:
-        number: 00
+        number: 026
 
+    ## 27 - Lola 3-Bank Drop Target - Left ##
+    s_l_lola_target:
+        number: 027
 
+    ## 28 - Lola 3-Bank Drop Target - Middle ##
+    s_m_lola_target:
+        number: 028
 
-    ## Plumb Credit Button ##
-    s_credit:
-        number: 00
+    ## 29 - Lola 3-Bank Drop Target - Right ##
+    s_r_lola_target:
+        number: 029
 
-    ## Start Button ##
-    s_start:
-        number: 03
-        tags: start
+    ## 30 - Pinbot 3-Bank Drop Target - Top ##
+    s_l_pinbot_target:
+        number: 030
 
-    ## Launch Button ##
-    s_launch_button:
-        number: 01
-        tags: launch
+    ## 31 - Pinbot 3-Bank Drop Target - Middle ##
+    s_m_pinbot_target:
+        number: 031
 
-    ## Flippers (2) ##
-    s_left_flipper:
-        number: 02
-    s_right_flipper:
-        number: 03
+    ## 32 - Pinbot 3-Bank Drop Target - Bottom ##
+    s_r_pinbot_target:
+        number: 032
 
-    ## Ball Trough (6?) ##
+    ## 33 - Right Ramp ##
+    s_r_ramp:
+        number: 033
 
+    ## 34 - Left Ramp ##
+    s_l_ramp:
+        number: 034
 
-    ## Plunger Lane ##
-    s_plunger_lane:
-        number: 09
+    ## 35 - Drac Catapult ##
+    s_drac_catapult:
+        number: 35
 
-    ## Slingshots (2) ##
-    s_left_sling:
-        number: 11
-    s_right_sling:
-        number: 11
+    ## 36 - Pinbot Eject Hole ##
+    s_pinbot_eject:
+        number: 036
 
-    ## Pop bumpers (3) ##
-    s_top_left_pop:
-        number: 12
-    s_top_right_pop:
-        number: 13
-    s_top_center_pop:
-        number: 14
+    ## 37 - Left Outlane Drain ##
+    s_l_outlane:
+        number: 037
 
-    ## Spin-Out (1) ##
-    s_spinout:
-      number: 15
-      tags: playfield_active
+    ## 38 - Left Return Lane ##
+    s_l_return_lane:
+        number: 038
 
-    ## Spin-Out ##
+    ## 39 - Right Outlane Drain ##
+    s_r_outlane:
+        number: 039
+
+    ## 40 - Right Return Lane ##
+    s_r_return_lane:
+        number: 040
+
+    ## 41 - Not Used ##
+
+    ## 42 - Not Used  ##
+
+    ## 43 - Spinout - Kickbig ##
     s_spinout_saucer:
-        number: 16
+        number: 043
 
-    ## Dracula ##
-    s_dracula_saucer:
-        number: 17
+    ## 44 - Spinout - Counter ##
+    s_spinout_counter:
+        number: 044
+        
+    ## 45 - Not Used ##
+    ## 46 - Not Used ##
+    ## 47 - Not Used ##
+    ## 48 - Not Used ##
+    ## 49 - Not Used ##
+    ## 50 - Not Used ##
+    ## 51 - Not Used ##
+    ## 52 - Not Used ##
+    ## 53 - Not Used ##
+    ## 54 - Not Used ##
+    ## 55 - Not Used ##
+    ## 56 - Not Used ##
+    
+    ## Flippers (2) ##
+    ## 57 - Right Flipper / Lane Change ##
+    s_right_flipper:
+        number: 057
 
-    ## Santa ##
-    s_santa_saucer:
-        number: 18
+    ## 58 - Left Flipper / Lane Change ##
+    s_left_flipper:
+        number: 058
+    
+    ## 59 - Not Used ##
+    ## 60 - Not Used ##
+    ## 61 - Not Used ##
+    ## 62 - Not Used ##
+    ## 63 - Not Used ##
+    ## 64 - Not Used ##
 
-    ## Pinbot ##
-    s_pinbot_saucer:
-        number: 19
 
-    ## 3-bank drop targets (2) ##
-    ## Lola ##
-    ## Pinbot ##
 
-    ## Standup target (1) ##
-    ## Santa ##
+#    ## Start Button ##
+#    s_start:
+#        number: 03
+#        tags: start
+
+#    ## Launch Button ##
+#    s_launch_button:
+#        number: 01
+#        tags: launch
 
 
 coils:
@@ -311,7 +350,7 @@ keyboard:
         switch: s_trough6
         toggle: true
     p:
-        switch: s_plunger_lane
+        switch: s_ball_shooter_lane
         toggle: true
     l:
         switch: s_launch_button
@@ -343,7 +382,7 @@ ball_devices:
         tags: trough, home, drain
         debug: yes
     bd_plunger:
-        ball_switches: s_plunger_lane
+        ball_switches: s_ball_shooter_lane
         eject_coil: c_plunger_eject
         eject_timeouts: 3s
         mechanical_eject: true
