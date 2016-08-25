@@ -125,14 +125,13 @@ switches:
     s_r_kicker:
         number: 020
 
-    ## 21 - Lower Jet Bumper ##
-    s_lower_jet_bumper:
+    ## 21 - Lower(middle) Jet Bumper ##
+    s_m_jet_bumper:
         number: 021
 
     ## 22 - Ball Shooter Lane ##
     s_ball_shooter_lane:
         number: 022
-        tags: playfield_active
 
     ## 23 - Top Lane Entry ##
     s_top_lane_entry:
@@ -217,7 +216,8 @@ switches:
     ## 44 - Spinout - Counter ##
     s_spinout_counter:
         number: 044
-        
+        tags: playfield_active
+
     ## 45 - Not Used ##
     ## 46 - Not Used ##
     ## 47 - Not Used ##
@@ -248,80 +248,87 @@ switches:
     ## 64 - Not Used ##
 
 
+#################
+# Used in Testing
+#################
+    ## Start Button - [Used in Testing] ##
+    s_start:
+        number: 098
+        tags: start
 
-#    ## Start Button ##
-#    s_start:
-#        number: 03
-#        tags: start
-
-#    ## Launch Button ##
-#    s_launch_button:
-#        number: 01
-#        tags: launch
+    ## Launch Button - [Used in Testing] ##
+    s_launch_button:
+        number: 099
+        tags: launch
 
 
 coils:
     ## Flippers (2) ##
     c_flipper_left_main:
-        number: 00
+        number: 000
         pulse_ms: 20
     c_flipper_left_hold:
-        number: 01
+        number: 001
         allow_enable: true
     c_flipper_right_main:
-        number: 02
+        number: 002
         pulse_ms: 20
     c_flipper_right_hold:
-        number: 03
+        number: 003
         allow_enable: true
 
-    ## Ball Trough Eject (?) ##
+    ## Ball Trough Eject ##
     c_trough_eject:
-        number: 04
+        number: 004
         pulse_ms: 20
-
-    ## Shooter Lane Auto-launch ##
-    c_plunger_eject:
-        number: 05
-        pulse_ms: 25
 
     ## Slingshots (2) ##
     c_left_sling:
-        number: 06
+        number: 006
     c_right_sling:
-        number: 07
+        number: 007
 
-    ## Pop bumpers (3) ##
-    c_top_left_pop:
-        number: 08
-    c_top_right_pop:
-        number: 09
-    c_top_center_pop:
-        number: 10
+    ## Jet Bumpers (3) - Left, Right, Middle ##
+    c_l_jet_bumper:
+        number: 008
+    c_r_jet_bumper:
+        number: 009
+    c_m_jet_bumper:
+        number: 010
 
-    ## Spin-Out ##
-    c_spinout_saucer:
-        number: 11
+    ## Spin-Out - Kickout##
+    c_spinout_kickout:
+        number: 011
 
-    ## Dracula ##
-    c_dracula_saucer:
-        number: 12
+    ## Dracula - Catapult ##
+    c_dracula_catapult:
+        number: 012
 
-    ## Santa ##
-    c_santa_saucer:
-        number: 13
+    ## Santa - Saucer Eject ##
+    c_santa_kickout:
+        number: 013
+    c_santa_eject:
+        number: 014
 
-    ## Pinbot ##
-    c_pinbot_saucer:
-        number: 14
+    ## Pinbot - Saucer Eject ##
+    c_pinbot_eject:
+        number: 015
 
-    ## 3-bank drop targets (2) ##
-    ## Lola ##
-    ## Pinbot ##
+    ## Lola - 3-bank drop targets (2) - Reset ##
+    ## Not in standard game ##
+
+    ## Pinbot - 3-bank drop targets (2) - Reset ##
+    ## Not in standard game ##
 
 
-    ## Standup target (1) ##
-    ## Santa ##
+#################
+# Used in Testing
+#################
+    ## Shooter Lane Auto-launch ##
+    ## Not in standard game ##
+    c_plunger_eject:
+        number: 099
+        pulse_ms: 25
 
 
 keyboard:
@@ -331,23 +338,15 @@ keyboard:
         switch: s_left_flipper
     /:
         switch: s_right_flipper
+    y:
+        switch: s_outhole
+    o:
+        switch: s_outhole
     1:
-        switch: s_trough1
+        switch: s_ball_trough_1
         toggle: true
     2:
-        switch: s_trough2
-        toggle: true
-    3:
-        switch: s_trough3
-        toggle: true
-    4:
-        switch: s_trough4
-        toggle: true
-    5:
-        switch: s_trough5
-        toggle: true
-    6:
-        switch: s_trough6
+        switch: s_ball_trough_2
         toggle: true
     p:
         switch: s_ball_shooter_lane
@@ -357,7 +356,7 @@ keyboard:
 
     # Playfield activated #
     a:
-        switch: s_spinout
+        switch: s_spinout_counter
 
 
 flippers:
@@ -375,7 +374,7 @@ flippers:
 
 ball_devices:
     bd_trough:
-        ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5, s_trough6, s_trough_jam
+        ball_switches: s_ball_trough_1, s_ball_trough_2
         eject_coil: c_trough_eject
         eject_targets: bd_plunger
         entrance_count_delay: 300ms
@@ -415,20 +414,20 @@ slides:
     attract_started:
       widgets:
         - type: text
-          text: ATTRACT MODE - PRESS START
+          text: ATTRACT MODE - PRESS START [s]
     ball_started:
       widgets:
         - type: text
-          text: PLAYER (number) BALL (ball)
+          text: PLAYER (number) BALL (ball) [p,l,a,y,2]
 
 
 #################
 # Virtual Platform Configuration
 #################
 virtual_platform_start_active_switches:
-    s_trough1
-    s_trough2
-    s_trough3
-    s_trough4
-    s_trough5
-    s_trough6
+    s_ball_trough_1
+    s_ball_trough_2
+#    s_trough3
+#    s_trough4
+#    s_trough5
+#    s_trough6
