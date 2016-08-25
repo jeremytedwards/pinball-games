@@ -1,0 +1,33 @@
+events:
+  game_ended: 1
+  game_started: 8
+jam: 0
+player:
+  score:
+    average: 0.0
+    top:
+    - 0
+    total: 1
+switches:
+  s_dracula_saucer: 0
+  s_launch_button: 9
+  s_left_flipper: 4
+  s_left_sling: 0
+  s_pinbot_saucer: 0
+  s_plunger_lane: 9
+  s_right_flipper: 5
+  s_right_sling: 0
+  s_santa_saucer: 0
+  s_spinout: 0
+  s_spinout_saucer: 0
+  s_start: 0
+  s_top_center_pop: 0
+  s_top_left_pop: 0
+  s_top_right_pop: 0
+  s_trough1: 9
+  s_trough2: 0
+  s_trough3: 0
+  s_trough4: 0
+  s_trough5: 0
+  s_trough6: 0
+  s_trough_jam: 0

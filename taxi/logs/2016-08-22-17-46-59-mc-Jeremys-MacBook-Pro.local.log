@@ -1,0 +1,373 @@
+2016-08-22 17:47:00,064 : INFO : kivy : Factory: 179 symbols loaded
+2016-08-22 17:47:00,065 : DEBUG : kivy : Cache: register <kv.lang> with limit=None, timeout=None
+2016-08-22 17:47:00,139 : DEBUG : kivy : Cache: register <kv.image> with limit=None, timeout=60
+2016-08-22 17:47:00,139 : DEBUG : kivy : Cache: register <kv.atlas> with limit=None, timeout=None
+2016-08-22 17:47:00,158 : INFO : kivy : Image: Providers: img_tex, img_imageio, img_dds, img_gif, img_sdl2 (img_pil, img_ffpyplayer ignored)
+2016-08-22 17:47:00,159 : DEBUG : kivy : Cache: register <kv.texture> with limit=1000, timeout=60
+2016-08-22 17:47:00,159 : DEBUG : kivy : Cache: register <kv.shader> with limit=1000, timeout=3600
+2016-08-22 17:47:00,298 : INFO : kivy : VideoGstplayer: Using Gstreamer 1.4.5.0
+2016-08-22 17:47:00,298 : INFO : kivy : Video: Provider: gstplayer
+2016-08-22 17:47:00,311 : INFO : kivy : Loading MPF-MC controller
+2016-08-22 17:47:00,311 : INFO : mpfmc : Mission Pinball Framework Media Controller v0.30.1
+2016-08-22 17:47:00,312 : INFO : mpfmc : Machine path: /Users/jackbot/pinball/taxi
+2016-08-22 17:47:00,312 : INFO : mpfmc : Starting clock at 30.0Hz
+2016-08-22 17:47:00,312 : DEBUG : Events : Registered ModeController._load_modes as a handler for 'init_phase_2', priority: 1, kwargs: {}
+2016-08-22 17:47:00,317 : INFO : kivy : Text: Provider: sdl2
+2016-08-22 17:47:00,323 : DEBUG : Events : Registered ConfigCollection.create_entries_from_root_config as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 17:47:00,323 : DEBUG : Events : Registered ConfigCollection.create_entries_from_root_config as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 17:47:00,324 : DEBUG : Events : Registered ConfigCollection.create_entries_from_root_config as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 17:47:00,325 : DEBUG : Events : Registered ConfigCollection.create_entries_from_root_config as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 17:47:00,511 : DEBUG : Events : Registered ConfigProcessor._init as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 17:47:00,533 : INFO : kivy : OSC: using <multiprocessing> for socket
+2016-08-22 17:47:00,535 : INFO : kivy : Window: Provider: sdl2
+2016-08-22 17:47:00,628 : INFO : kivy : GL: OpenGL version <b'2.1 INTEL-10.14.73'>
+2016-08-22 17:47:00,629 : INFO : kivy : GL: OpenGL vendor <b'Intel Inc.'>
+2016-08-22 17:47:00,629 : INFO : kivy : GL: OpenGL renderer <b'Intel Iris Pro OpenGL Engine'>
+2016-08-22 17:47:00,629 : INFO : kivy : GL: OpenGL parsed version: 2, 1
+2016-08-22 17:47:00,629 : INFO : kivy : GL: Shading version <b'1.20'>
+2016-08-22 17:47:00,629 : INFO : kivy : GL: Texture max size <16384>
+2016-08-22 17:47:00,629 : INFO : kivy : GL: Texture max units <16>
+2016-08-22 17:47:00,638 : DEBUG : kivy : Shader: Fragment compiled successfully
+2016-08-22 17:47:00,639 : DEBUG : kivy : Shader: Vertex compiled successfully
+2016-08-22 17:47:00,640 : DEBUG : kivy : ImageImageIO: Load </Applications/MPF.app/Contents/Resources/kivy/kivy/data/glsl/default.png>
+2016-08-22 17:47:00,641 : INFO : kivy : Window: auto add sdl2 input provider
+2016-08-22 17:47:00,642 : INFO : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2016-08-22 17:47:00,643 : DEBUG : kivy : Resource: add </Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/fonts> in path list
+2016-08-22 17:47:00,643 : DEBUG : SoundSystem : Loading the Sound System
+2016-08-22 17:47:00,644 : INFO : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2016-08-22 17:47:00,662 : INFO : AudioInterface : Initialized 0.30.0
+2016-08-22 17:47:00,662 : DEBUG : AudioInterface : Loaded SDL 2.0.4
+2016-08-22 17:47:00,663 : DEBUG : AudioInterface : Loaded SDL_Mixer 2.0.0
+2016-08-22 17:47:00,663 : DEBUG : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2016-08-22 17:47:00,663 : DEBUG : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples
+2016-08-22 17:47:00,663 : DEBUG : AudioInterface : Silence audio chunk initialized (required for SDL_Mixer callback)
+2016-08-22 17:47:00,663 : DEBUG : AudioInterface : SDL_Mixer - Allocated 1 channel for final audio output
+2016-08-22 17:47:00,663 : DEBUG : AudioInterface.Track.0.default : Allocated track audio buffer (4096 bytes)
+2016-08-22 17:47:00,663 : DEBUG : AudioInterface : The 'default' track has successfully been created.
+2016-08-22 17:47:00,664 : DEBUG : AudioInterface : Enabling audio playback
+2016-08-22 17:47:00,664 : DEBUG : AssetManager : Initializing...
+2016-08-22 17:47:00,664 : DEBUG : Events : Registered AssetManager._create_assets as a handler for 'init_phase_3', priority: 1, kwargs: {}
+2016-08-22 17:47:00,664 : DEBUG : Events : Registered AssetManager._bcp_client_asset_load as a handler for 'assets_to_load', priority: 1, kwargs: {}
+2016-08-22 17:47:00,664 : DEBUG : Events : Registered BcpProcessor._start_socket_thread as a handler for 'init_done', priority: 1, kwargs: {}
+2016-08-22 17:47:00,665 : DEBUG : kivy : App: Loading kv </Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/core/mpfmc.kv>
+2016-08-22 17:47:00,665 : DEBUG : kivy : App: kv </Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/core/mpfmc.kv> not found
+2016-08-22 17:47:00,666 : DEBUG : kivy : Base: Create provider from mouse
+2016-08-22 17:47:00,666 : INFO : kivy : Base: Start application main loop
+2016-08-22 17:47:00,730 : DEBUG : Events : ^^^^ Posted event 'display_window_ready'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,730 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,730 : DEBUG : Events : display_window_ready, None, None, {}
+2016-08-22 17:47:00,730 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,731 : DEBUG : Events : ^^^^ Processing event 'display_window_ready'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,731 : DEBUG : Events : vvvv Finished event 'display_window_ready'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,758 : DEBUG : Events : ^^^^ Posted event 'display_window_initialized'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,758 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,758 : DEBUG : Events : display_window_initialized, None, None, {}
+2016-08-22 17:47:00,758 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,759 : DEBUG : Events : ^^^^ Processing event 'display_window_initialized'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,759 : DEBUG : Events : vvvv Finished event 'display_window_initialized'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,792 : DEBUG : Events : ^^^^ Posted event 'displays_initialized'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,792 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,792 : DEBUG : Events : displays_initialized, None, None, {}
+2016-08-22 17:47:00,792 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,792 : DEBUG : Events : ^^^^ Processing event 'displays_initialized'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,793 : DEBUG : Events : vvvv Finished event 'displays_initialized'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,795 : DEBUG : Events : Registered McConfigPlayer._initialize as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 17:47:00,795 : DEBUG : Events : Registered McConfigPlayer._initialize as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 17:47:00,796 : DEBUG : Events : Registered McConfigPlayer._initialize as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 17:47:00,796 : DEBUG : Events : ^^^^ Posted event 'init_phase_1'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,796 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,796 : DEBUG : Events : init_phase_1, None, None, {}
+2016-08-22 17:47:00,796 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,796 : DEBUG : Events : ^^^^ Processing event 'init_phase_1'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,796 : DEBUG : Events : ConfigCollection.create_entries_from_root_config (priority: 1) responding to event 'init_phase_1' with args {}
+2016-08-22 17:47:00,797 : DEBUG : Events : ConfigCollection.create_entries_from_root_config (priority: 1) responding to event 'init_phase_1' with args {}
+2016-08-22 17:47:00,797 : DEBUG : Events : ConfigCollection.create_entries_from_root_config (priority: 1) responding to event 'init_phase_1' with args {}
+2016-08-22 17:47:00,797 : DEBUG : Events : ConfigCollection.create_entries_from_root_config (priority: 1) responding to event 'init_phase_1' with args {}
+2016-08-22 17:47:00,800 : DEBUG : Events : ConfigProcessor._init (priority: 1) responding to event 'init_phase_1' with args {}
+2016-08-22 17:47:00,800 : DEBUG : Events : McConfigPlayer._initialize (priority: 1) responding to event 'init_phase_1' with args {}
+2016-08-22 17:47:00,800 : DEBUG : Events : Registered McConfigPlayer.play_from_trigger as a handler for 'widgets_play', priority: 1, kwargs: {}
+2016-08-22 17:47:00,800 : DEBUG : Events : Registered McConfigPlayer.clear_from_trigger as a handler for 'widgets_clear', priority: 1, kwargs: {}
+2016-08-22 17:47:00,800 : DEBUG : Events : McConfigPlayer._initialize (priority: 1) responding to event 'init_phase_1' with args {}
+2016-08-22 17:47:00,801 : DEBUG : Events : Registered McConfigPlayer.play_from_trigger as a handler for 'sounds_play', priority: 1, kwargs: {}
+2016-08-22 17:47:00,801 : DEBUG : Events : Registered McConfigPlayer.clear_from_trigger as a handler for 'sounds_clear', priority: 1, kwargs: {}
+2016-08-22 17:47:00,801 : DEBUG : Events : McConfigPlayer._initialize (priority: 1) responding to event 'init_phase_1' with args {}
+2016-08-22 17:47:00,801 : DEBUG : Events : Registered ConfigPlayer.config_play_callback as a handler for 'mode_attract_started', priority: 0, kwargs: {'mode': None, 'settings': {'slides': {'attract_started': {'priority': None, 'transition_out': None, 'transition': None, 'show': True, 'expire': None, 'force': False, 'action': 'play', 'persist': False, 'target': None}}}}
+2016-08-22 17:47:00,801 : DEBUG : Events : Registered ConfigPlayer.config_play_callback as a handler for 'ball_started', priority: 0, kwargs: {'mode': None, 'settings': {'slides': {'ball_started': {'priority': None, 'transition_out': None, 'transition': None, 'show': True, 'expire': None, 'force': False, 'action': 'play', 'persist': False, 'target': None}}}}
+2016-08-22 17:47:00,801 : DEBUG : Events : Registered ConfigPlayer.config_play_callback as a handler for 'mc_ready', priority: 0, kwargs: {'mode': None, 'settings': {'slides': {'welcome_slide': {'priority': None, 'transition_out': None, 'transition': None, 'show': True, 'expire': None, 'force': False, 'action': 'play', 'persist': False, 'target': None}}}}
+2016-08-22 17:47:00,802 : DEBUG : Events : Registered McConfigPlayer.play_from_trigger as a handler for 'slides_play', priority: 1, kwargs: {}
+2016-08-22 17:47:00,802 : DEBUG : Events : Registered McConfigPlayer.clear_from_trigger as a handler for 'slides_clear', priority: 1, kwargs: {}
+2016-08-22 17:47:00,802 : DEBUG : Events : vvvv Finished event 'init_phase_1'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,802 : DEBUG : Events : ^^^^ Posted event 'mc_ready'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,802 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,802 : DEBUG : Events : mc_ready, None, None, {}
+2016-08-22 17:47:00,802 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,802 : DEBUG : Events : ^^^^ Processing event 'mc_ready'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,803 : DEBUG : Events : ConfigPlayer.config_play_callback (priority: 0) responding to event 'mc_ready' with args {'mode': None, 'settings': {'slides': {'welcome_slide': {'priority': None, 'transition_out': None, 'transition': None, 'show': True, 'expire': None, 'force': False, 'action': 'play', 'persist': False, 'target': None}}}}
+2016-08-22 17:47:00,805 : DEBUG : kivy : Resource: add </Library/Fonts> in path list
+2016-08-22 17:47:00,805 : DEBUG : kivy : Resource: add </System/Library/Fonts> in path list
+2016-08-22 17:47:00,805 : DEBUG : kivy : Resource: add </Users/jackbot/Library/Fonts> in path list
+2016-08-22 17:47:00,805 : DEBUG : kivy : Resource: add </Applications/MPF.app/Contents/Resources/kivy/kivy/data/fonts> in path list
+2016-08-22 17:47:00,806 : INFO : kivy : GL: NPOT texture support is available
+2016-08-22 17:47:00,808 : DEBUG : Events : vvvv Finished event 'mc_ready'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,808 : DEBUG : Events : ^^^^ Posted event 'init_phase_2'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,808 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,808 : DEBUG : Events : init_phase_2, None, None, {}
+2016-08-22 17:47:00,808 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,808 : DEBUG : Events : ^^^^ Processing event 'init_phase_2'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,808 : DEBUG : Events : ModeController._load_modes (priority: 1) responding to event 'init_phase_2' with args {}
+2016-08-22 17:47:00,809 : DEBUG : ModeController : Found MPF Mode folders: {'attract': 'attract', 'high_score': 'high_score', 'bonus': 'bonus', 'game': 'game', 'tilt': 'tilt', 'credits': 'credits', 'carousel': 'carousel'}
+2016-08-22 17:47:00,809 : DEBUG : ModeController : Found Machine-specific Mode folders: {}
+2016-08-22 17:47:00,812 : DEBUG : Events : vvvv Finished event 'init_phase_2'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,812 : DEBUG : Events : ^^^^ Posted event 'init_phase_3'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,812 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,812 : DEBUG : Events : init_phase_3, None, None, {}
+2016-08-22 17:47:00,813 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,813 : DEBUG : Events : ^^^^ Processing event 'init_phase_3'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,813 : DEBUG : Events : AssetManager._create_assets (priority: 1) responding to event 'init_phase_3' with args {}
+2016-08-22 17:47:00,813 : DEBUG : AssetManager : Processing assets from base folder: /Users/jackbot/pinball/taxi/images
+2016-08-22 17:47:00,813 : DEBUG : AssetManager : Processing assets from base folder: /Users/jackbot/pinball/taxi/videos
+2016-08-22 17:47:00,813 : DEBUG : AssetManager : Processing assets from base folder: /Users/jackbot/pinball/taxi/sounds
+2016-08-22 17:47:00,813 : DEBUG : AssetManager : Processing assets from base folder: /Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpf/modes/attract/images
+2016-08-22 17:47:00,813 : DEBUG : AssetManager : Processing assets from base folder: /Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpf/modes/attract/videos
+2016-08-22 17:47:00,814 : DEBUG : AssetManager : Processing assets from base folder: /Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpf/modes/attract/sounds
+2016-08-22 17:47:00,814 : DEBUG : AssetManager : Processing assets from base folder: /Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpf/modes/game/images
+2016-08-22 17:47:00,814 : DEBUG : AssetManager : Processing assets from base folder: /Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpf/modes/game/videos
+2016-08-22 17:47:00,814 : DEBUG : AssetManager : Processing assets from base folder: /Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpf/modes/game/sounds
+2016-08-22 17:47:00,814 : DEBUG : Events : vvvv Finished event 'init_phase_3'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,814 : DEBUG : Events : ^^^^ Posted event 'init_phase_4'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,814 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,814 : DEBUG : Events : init_phase_4, None, None, {}
+2016-08-22 17:47:00,815 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,815 : DEBUG : Events : ^^^^ Processing event 'init_phase_4'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,815 : DEBUG : Events : vvvv Finished event 'init_phase_4'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,815 : DEBUG : Events : ^^^^ Posted event 'init_phase_5'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,815 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,815 : DEBUG : Events : init_phase_5, None, None, {}
+2016-08-22 17:47:00,815 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,815 : DEBUG : Events : ^^^^ Processing event 'init_phase_5'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,815 : DEBUG : Events : vvvv Finished event 'init_phase_5'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,815 : DEBUG : Events : ^^^^ Posted event 'init_done'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,816 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,816 : DEBUG : Events : init_done, None, None, {}
+2016-08-22 17:47:00,816 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,816 : DEBUG : Events : ^^^^ Processing event 'init_done'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,816 : DEBUG : Events : BcpProcessor._start_socket_thread (priority: 1) responding to event 'init_done' with args {}
+2016-08-22 17:47:00,816 : INFO : MPF-MC BCP Server : Starting up on localhost port 5050
+2016-08-22 17:47:00,817 : INFO : MPF-MC BCP Server : Waiting for a connection...
+2016-08-22 17:47:00,818 : DEBUG : Events : ^^^^ Posted event 'client_disconnected'. Type: None, Callback: None, Args: {'host': '127.0.0.1', 'port': 5050}
+2016-08-22 17:47:00,818 : DEBUG : Events : vvvv Finished event 'init_done'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,818 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,818 : DEBUG : Events : ^^^^ Processing event 'client_disconnected'. Type: None, Callback: None, Args: {'host': '127.0.0.1', 'port': 5050}
+2016-08-22 17:47:00,818 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,818 : DEBUG : Events : vvvv Finished event 'client_disconnected'. Type: None. Callback: None. Args: {'host': '127.0.0.1', 'port': 5050}
+2016-08-22 17:47:00,818 : DEBUG : Events : ^^^^ Posted event 'mc_reset_phase_1'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,819 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,819 : DEBUG : Events : mc_reset_phase_1, None, None, {}
+2016-08-22 17:47:00,819 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,819 : DEBUG : Events : ^^^^ Processing event 'mc_reset_phase_1'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,819 : DEBUG : Events : vvvv Finished event 'mc_reset_phase_1'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,819 : DEBUG : Events : ^^^^ Posted event 'mc_reset_phase_2'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,819 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,819 : DEBUG : Events : mc_reset_phase_2, None, None, {}
+2016-08-22 17:47:00,819 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,820 : DEBUG : Events : ^^^^ Processing event 'mc_reset_phase_2'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,820 : DEBUG : Events : vvvv Finished event 'mc_reset_phase_2'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,820 : DEBUG : Events : ^^^^ Posted event 'mc_reset_phase_3'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,820 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,820 : DEBUG : Events : mc_reset_phase_3, None, None, {}
+2016-08-22 17:47:00,820 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,820 : DEBUG : Events : ^^^^ Processing event 'mc_reset_phase_3'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,820 : DEBUG : Events : vvvv Finished event 'mc_reset_phase_3'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,910 : INFO : MPF-MC BCP Server : Received connection from: 127.0.0.1:50563
+2016-08-22 17:47:00,911 : DEBUG : Events : ^^^^ Posted event 'client_connected'. Type: None, Callback: None, Args: {'port': 50563, 'address': '127.0.0.1'}
+2016-08-22 17:47:00,911 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,911 : DEBUG : Events : client_connected, None, None, {'port': 50563, 'address': '127.0.0.1'}
+2016-08-22 17:47:00,911 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,913 : DEBUG : MPF-MC BCP Server : Received "hello?version=1.0&controller_version=0.30.26&controller_name=Mission%20Pinball%20Framework"
+2016-08-22 17:47:00,915 : DEBUG : MPF-MC BCP Server : Received "machine_variable?value=int:0&name=player2_score"
+2016-08-22 17:47:00,915 : DEBUG : MPF-MC BCP Server : Received "machine_variable?value=FREE%20PLAY&name=credits_string"
+2016-08-22 17:47:00,915 : DEBUG : MPF-MC BCP Server : Received "machine_variable?value=int:0&name=player1_score"
+2016-08-22 17:47:00,915 : DEBUG : MPF-MC BCP Server : Received "reset"
+2016-08-22 17:47:00,919 : DEBUG : MPF-MC BCP Server : Received "mode_start?priority=int:10&name=attract"
+2016-08-22 17:47:00,920 : DEBUG : MPF-MC BCP Server : Received "trigger?name=mode_attract_started"
+2016-08-22 17:47:00,937 : DEBUG : Events : ^^^^ Processing event 'client_connected'. Type: None, Callback: None, Args: {'port': 50563, 'address': '127.0.0.1'}
+2016-08-22 17:47:00,937 : DEBUG : Events : vvvv Finished event 'client_connected'. Type: None. Callback: None. Args: {'port': 50563, 'address': '127.0.0.1'}
+2016-08-22 17:47:00,938 : DEBUG : BcpProcessor : Processing command: hello {'version': '1.0', 'controller_version': '0.30.26', 'controller_name': 'Mission Pinball Framework'}
+2016-08-22 17:47:00,938 : DEBUG : BcpProcessor : Processing command: machine_variable {'value': 0, 'name': 'player2_score'}
+2016-08-22 17:47:00,939 : DEBUG : mpfmc : Setting machine_var 'player2_score' to: 0, (prior: None, change: True)
+2016-08-22 17:47:00,939 : DEBUG : Events : ^^^^ Posted event 'machine_var_player2_score'. Type: None, Callback: None, Args: {'value': 0, 'change': True, 'prev_value': None}
+2016-08-22 17:47:00,939 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,939 : DEBUG : Events : machine_var_player2_score, None, None, {'value': 0, 'change': True, 'prev_value': None}
+2016-08-22 17:47:00,940 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,940 : DEBUG : BcpProcessor : Processing command: machine_variable {'value': 'FREE PLAY', 'name': 'credits_string'}
+2016-08-22 17:47:00,940 : DEBUG : mpfmc : Setting machine_var 'credits_string' to: FREE PLAY, (prior: None, change: True)
+2016-08-22 17:47:00,941 : DEBUG : Events : ^^^^ Posted event 'machine_var_credits_string'. Type: None, Callback: None, Args: {'value': 'FREE PLAY', 'change': True, 'prev_value': None}
+2016-08-22 17:47:00,942 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,942 : DEBUG : Events : machine_var_player2_score, None, None, {'value': 0, 'change': True, 'prev_value': None}
+2016-08-22 17:47:00,942 : DEBUG : Events : machine_var_credits_string, None, None, {'value': 'FREE PLAY', 'change': True, 'prev_value': None}
+2016-08-22 17:47:00,942 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,943 : DEBUG : BcpProcessor : Processing command: machine_variable {'value': 0, 'name': 'player1_score'}
+2016-08-22 17:47:00,943 : DEBUG : mpfmc : Setting machine_var 'player1_score' to: 0, (prior: None, change: True)
+2016-08-22 17:47:00,943 : DEBUG : Events : ^^^^ Posted event 'machine_var_player1_score'. Type: None, Callback: None, Args: {'value': 0, 'change': True, 'prev_value': None}
+2016-08-22 17:47:00,943 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,943 : DEBUG : Events : machine_var_player2_score, None, None, {'value': 0, 'change': True, 'prev_value': None}
+2016-08-22 17:47:00,943 : DEBUG : Events : machine_var_credits_string, None, None, {'value': 'FREE PLAY', 'change': True, 'prev_value': None}
+2016-08-22 17:47:00,944 : DEBUG : Events : machine_var_player1_score, None, None, {'value': 0, 'change': True, 'prev_value': None}
+2016-08-22 17:47:00,944 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,944 : DEBUG : BcpProcessor : Processing command: reset {}
+2016-08-22 17:47:00,944 : DEBUG : Events : ^^^^ Posted event 'mc_reset_phase_1'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,944 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,944 : DEBUG : Events : machine_var_player2_score, None, None, {'value': 0, 'change': True, 'prev_value': None}
+2016-08-22 17:47:00,944 : DEBUG : Events : machine_var_credits_string, None, None, {'value': 'FREE PLAY', 'change': True, 'prev_value': None}
+2016-08-22 17:47:00,945 : DEBUG : Events : machine_var_player1_score, None, None, {'value': 0, 'change': True, 'prev_value': None}
+2016-08-22 17:47:00,945 : DEBUG : Events : mc_reset_phase_1, None, None, {}
+2016-08-22 17:47:00,945 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,945 : DEBUG : Events : ^^^^ Processing event 'machine_var_player2_score'. Type: None, Callback: None, Args: {'change': True, 'value': 0, 'prev_value': None}
+2016-08-22 17:47:00,945 : DEBUG : Events : vvvv Finished event 'machine_var_player2_score'. Type: None. Callback: None. Args: {'change': True, 'value': 0, 'prev_value': None}
+2016-08-22 17:47:00,945 : DEBUG : Events : ^^^^ Processing event 'machine_var_credits_string'. Type: None, Callback: None, Args: {'change': True, 'value': 'FREE PLAY', 'prev_value': None}
+2016-08-22 17:47:00,945 : DEBUG : Events : vvvv Finished event 'machine_var_credits_string'. Type: None. Callback: None. Args: {'change': True, 'value': 'FREE PLAY', 'prev_value': None}
+2016-08-22 17:47:00,945 : DEBUG : Events : ^^^^ Processing event 'machine_var_player1_score'. Type: None, Callback: None, Args: {'change': True, 'value': 0, 'prev_value': None}
+2016-08-22 17:47:00,946 : DEBUG : Events : vvvv Finished event 'machine_var_player1_score'. Type: None. Callback: None. Args: {'change': True, 'value': 0, 'prev_value': None}
+2016-08-22 17:47:00,946 : DEBUG : Events : ^^^^ Processing event 'mc_reset_phase_1'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,946 : DEBUG : Events : vvvv Finished event 'mc_reset_phase_1'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,946 : DEBUG : Events : ^^^^ Posted event 'mc_reset_phase_2'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,946 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,946 : DEBUG : Events : mc_reset_phase_2, None, None, {}
+2016-08-22 17:47:00,946 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,946 : DEBUG : Events : ^^^^ Processing event 'mc_reset_phase_2'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,946 : DEBUG : Events : vvvv Finished event 'mc_reset_phase_2'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,947 : DEBUG : Events : ^^^^ Posted event 'mc_reset_phase_3'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,947 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,947 : DEBUG : Events : mc_reset_phase_3, None, None, {}
+2016-08-22 17:47:00,947 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,947 : DEBUG : Events : ^^^^ Processing event 'mc_reset_phase_3'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,947 : DEBUG : Events : vvvv Finished event 'mc_reset_phase_3'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:00,947 : DEBUG : BcpProcessor : Processing command: mode_start {'priority': 10, 'name': 'attract'}
+2016-08-22 17:47:00,947 : DEBUG : Mode.attract : Mode Start. Priority: 10
+2016-08-22 17:47:00,948 : DEBUG : BcpProcessor : Processing command: trigger {'name': 'mode_attract_started'}
+2016-08-22 17:47:00,948 : DEBUG : Events : ^^^^ Posted event 'mode_attract_started'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,948 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:00,948 : DEBUG : Events : mode_attract_started, None, None, {}
+2016-08-22 17:47:00,948 : DEBUG : Events : =========================================
+2016-08-22 17:47:00,966 : DEBUG : Events : ^^^^ Processing event 'mode_attract_started'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:00,967 : DEBUG : Events : ConfigPlayer.config_play_callback (priority: 0) responding to event 'mode_attract_started' with args {'mode': None, 'settings': {'slides': {'attract_started': {'priority': None, 'transition_out': None, 'transition': None, 'show': True, 'expire': None, 'force': False, 'action': 'play', 'persist': False, 'target': None}}}}
+2016-08-22 17:47:00,970 : DEBUG : Events : vvvv Finished event 'mode_attract_started'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:07,731 : DEBUG : MPF-MC BCP Server : Received "mode_start?priority=int:20&name=game"
+2016-08-22 17:47:07,734 : DEBUG : MPF-MC BCP Server : Received "mode_stop?name=attract"
+2016-08-22 17:47:07,734 : DEBUG : MPF-MC BCP Server : Received "trigger?key=attract&name=clear"
+2016-08-22 17:47:07,740 : DEBUG : MPF-MC BCP Server : Received "machine_variable?value=int:0&change=int:0&prev_value=int:0&name=player1_score"
+2016-08-22 17:47:07,742 : DEBUG : BcpProcessor : Processing command: mode_start {'priority': 20, 'name': 'game'}
+2016-08-22 17:47:07,743 : DEBUG : Events : ^^^^ Posted event 'game_started'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:07,743 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:07,743 : DEBUG : Events : game_started, None, None, {}
+2016-08-22 17:47:07,743 : DEBUG : Events : =========================================
+2016-08-22 17:47:07,744 : DEBUG : Mode.game : Mode Start. Priority: 20
+2016-08-22 17:47:07,744 : DEBUG : BcpProcessor : Processing command: mode_stop {'name': 'attract'}
+2016-08-22 17:47:07,744 : DEBUG : MPF-MC BCP Server : Received "trigger?player=%3CPlayer%201%3E&num=int:1&name=player_add_success"
+2016-08-22 17:47:07,744 : DEBUG : Mode.attract : Mode Stop.
+2016-08-22 17:47:07,745 : DEBUG : MPF-MC BCP Server : Received "player_added?player_num=int:1"
+2016-08-22 17:47:07,745 : DEBUG : BcpProcessor : Processing command: trigger {'key': 'attract', 'name': 'clear'}
+2016-08-22 17:47:07,745 : DEBUG : MPF-MC BCP Server : Received "player_turn_start?player_num=1"
+2016-08-22 17:47:07,746 : DEBUG : Events : ^^^^ Posted event 'clear'. Type: None, Callback: None, Args: {'key': 'attract'}
+2016-08-22 17:47:07,746 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:07,746 : DEBUG : Events : game_started, None, None, {}
+2016-08-22 17:47:07,746 : DEBUG : MPF-MC BCP Server : Received "player_variable?value=int:1&change=int:1&player_num=int:1&prev_value=int:0&name=ball"
+2016-08-22 17:47:07,746 : DEBUG : Events : clear, None, None, {'key': 'attract'}
+2016-08-22 17:47:07,746 : DEBUG : Events : =========================================
+2016-08-22 17:47:07,747 : DEBUG : BcpProcessor : Processing command: machine_variable {'value': 0, 'change': 0, 'prev_value': 0, 'name': 'player1_score'}
+2016-08-22 17:47:07,747 : DEBUG : BcpProcessor : Processing command: trigger {'player': '<Player 1>', 'num': 1, 'name': 'player_add_success'}
+2016-08-22 17:47:07,747 : DEBUG : Events : ^^^^ Posted event 'player_add_success'. Type: None, Callback: None, Args: {'player': '<Player 1>', 'num': 1}
+2016-08-22 17:47:07,747 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:07,747 : DEBUG : Events : game_started, None, None, {}
+2016-08-22 17:47:07,747 : DEBUG : Events : clear, None, None, {'key': 'attract'}
+2016-08-22 17:47:07,747 : DEBUG : Events : player_add_success, None, None, {'player': '<Player 1>', 'num': 1}
+2016-08-22 17:47:07,747 : DEBUG : Events : =========================================
+2016-08-22 17:47:07,747 : DEBUG : BcpProcessor : Processing command: player_added {'player_num': 1}
+2016-08-22 17:47:07,748 : DEBUG : Player : Creating new player: Player 1. (player index '0')
+2016-08-22 17:47:07,748 : DEBUG : Events : ^^^^ Posted event 'player_add_success'. Type: None, Callback: <bound method Player._player_add_done of <Player 1>>, Args: {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,748 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:07,748 : DEBUG : Events : game_started, None, None, {}
+2016-08-22 17:47:07,748 : DEBUG : Events : clear, None, None, {'key': 'attract'}
+2016-08-22 17:47:07,748 : DEBUG : Events : player_add_success, None, None, {'player': '<Player 1>', 'num': 1}
+2016-08-22 17:47:07,748 : DEBUG : Events : player_add_success, None, <bound method Player._player_add_done of <Player 1>>, {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,748 : DEBUG : Events : =========================================
+2016-08-22 17:47:07,748 : DEBUG : Events : ^^^^ Posted event 'player_add_success'. Type: None, Callback: None, Args: {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,748 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:07,749 : DEBUG : Events : game_started, None, None, {}
+2016-08-22 17:47:07,749 : DEBUG : Events : clear, None, None, {'key': 'attract'}
+2016-08-22 17:47:07,749 : DEBUG : Events : player_add_success, None, None, {'player': '<Player 1>', 'num': 1}
+2016-08-22 17:47:07,749 : DEBUG : Events : player_add_success, None, <bound method Player._player_add_done of <Player 1>>, {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,749 : DEBUG : Events : player_add_success, None, None, {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,749 : DEBUG : Events : =========================================
+2016-08-22 17:47:07,749 : DEBUG : BcpProcessor : Processing command: player_turn_start {'player_num': '1'}
+2016-08-22 17:47:07,749 : DEBUG : Events : ^^^^ Posted event 'player_turn_start'. Type: None, Callback: None, Args: {'number': 1, 'player': <Player 1>}
+2016-08-22 17:47:07,750 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:07,750 : DEBUG : Events : game_started, None, None, {}
+2016-08-22 17:47:07,750 : DEBUG : Events : clear, None, None, {'key': 'attract'}
+2016-08-22 17:47:07,750 : DEBUG : Events : player_add_success, None, None, {'player': '<Player 1>', 'num': 1}
+2016-08-22 17:47:07,750 : DEBUG : Events : player_add_success, None, <bound method Player._player_add_done of <Player 1>>, {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,750 : DEBUG : Events : player_add_success, None, None, {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,750 : DEBUG : Events : player_turn_start, None, None, {'number': 1, 'player': <Player 1>}
+2016-08-22 17:47:07,750 : DEBUG : Events : =========================================
+2016-08-22 17:47:07,750 : DEBUG : BcpProcessor : Processing command: player_variable {'value': 1, 'change': 1, 'player_num': 1, 'prev_value': 0, 'name': 'ball'}
+2016-08-22 17:47:07,750 : DEBUG : Player : Setting 'ball' to: 1, (prior: 0, change: 1)
+2016-08-22 17:47:07,751 : DEBUG : Events : ^^^^ Posted event 'player_ball'. Type: None, Callback: None, Args: {'change': 1, 'value': 1, 'player_num': 1, 'prev_value': 0}
+2016-08-22 17:47:07,751 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:07,751 : DEBUG : Events : game_started, None, None, {}
+2016-08-22 17:47:07,751 : DEBUG : Events : clear, None, None, {'key': 'attract'}
+2016-08-22 17:47:07,751 : DEBUG : MPF-MC BCP Server : Received "trigger?player=int:1&ball=int:1&name=ball_started"
+2016-08-22 17:47:07,751 : DEBUG : Events : player_add_success, None, None, {'player': '<Player 1>', 'num': 1}
+2016-08-22 17:47:07,751 : DEBUG : Events : player_add_success, None, <bound method Player._player_add_done of <Player 1>>, {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,751 : DEBUG : Events : player_add_success, None, None, {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,752 : DEBUG : Events : player_turn_start, None, None, {'number': 1, 'player': <Player 1>}
+2016-08-22 17:47:07,752 : DEBUG : Events : player_ball, None, None, {'change': 1, 'value': 1, 'player_num': 1, 'prev_value': 0}
+2016-08-22 17:47:07,752 : DEBUG : Events : =========================================
+2016-08-22 17:47:07,752 : DEBUG : BcpProcessor : Processing command: trigger {'player': 1, 'ball': 1, 'name': 'ball_started'}
+2016-08-22 17:47:07,752 : DEBUG : Events : ^^^^ Posted event 'ball_started'. Type: None, Callback: None, Args: {'player': 1, 'ball': 1}
+2016-08-22 17:47:07,752 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:07,752 : DEBUG : Events : game_started, None, None, {}
+2016-08-22 17:47:07,752 : DEBUG : Events : clear, None, None, {'key': 'attract'}
+2016-08-22 17:47:07,752 : DEBUG : Events : player_add_success, None, None, {'player': '<Player 1>', 'num': 1}
+2016-08-22 17:47:07,752 : DEBUG : Events : player_add_success, None, <bound method Player._player_add_done of <Player 1>>, {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,753 : DEBUG : Events : player_add_success, None, None, {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,753 : DEBUG : Events : player_turn_start, None, None, {'number': 1, 'player': <Player 1>}
+2016-08-22 17:47:07,753 : DEBUG : Events : player_ball, None, None, {'change': 1, 'value': 1, 'player_num': 1, 'prev_value': 0}
+2016-08-22 17:47:07,753 : DEBUG : Events : ball_started, None, None, {'player': 1, 'ball': 1}
+2016-08-22 17:47:07,753 : DEBUG : Events : =========================================
+2016-08-22 17:47:07,772 : DEBUG : Events : ^^^^ Processing event 'game_started'. Type: None, Callback: None, Args: {}
+2016-08-22 17:47:07,772 : DEBUG : Events : vvvv Finished event 'game_started'. Type: None. Callback: None. Args: {}
+2016-08-22 17:47:07,772 : DEBUG : Events : ^^^^ Processing event 'clear'. Type: None, Callback: None, Args: {'key': 'attract'}
+2016-08-22 17:47:07,773 : DEBUG : Events : vvvv Finished event 'clear'. Type: None. Callback: None. Args: {'key': 'attract'}
+2016-08-22 17:47:07,773 : DEBUG : Events : ^^^^ Processing event 'player_add_success'. Type: None, Callback: None, Args: {'player': '<Player 1>', 'num': 1}
+2016-08-22 17:47:07,773 : DEBUG : Events : vvvv Finished event 'player_add_success'. Type: None. Callback: None. Args: {'player': '<Player 1>', 'num': 1}
+2016-08-22 17:47:07,773 : DEBUG : Events : ^^^^ Processing event 'player_add_success'. Type: None, Callback: <bound method Player._player_add_done of <Player 1>>, Args: {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,773 : DEBUG : Events : vvvv Finished event 'player_add_success'. Type: None. Callback: <bound method Player._player_add_done of <Player 1>>. Args: {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,773 : DEBUG : Events : ^^^^ Processing event 'player_add_success'. Type: None, Callback: None, Args: {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,773 : DEBUG : Events : vvvv Finished event 'player_add_success'. Type: None. Callback: None. Args: {'player': <Player 1>, 'num': 1}
+2016-08-22 17:47:07,773 : DEBUG : Events : ^^^^ Processing event 'player_turn_start'. Type: None, Callback: None, Args: {'number': 1, 'player': <Player 1>}
+2016-08-22 17:47:07,774 : DEBUG : Events : vvvv Finished event 'player_turn_start'. Type: None. Callback: None. Args: {'number': 1, 'player': <Player 1>}
+2016-08-22 17:47:07,774 : DEBUG : Events : ^^^^ Processing event 'player_ball'. Type: None, Callback: None, Args: {'change': 1, 'value': 1, 'player_num': 1, 'prev_value': 0}
+2016-08-22 17:47:07,774 : DEBUG : Events : vvvv Finished event 'player_ball'. Type: None. Callback: None. Args: {'change': 1, 'value': 1, 'player_num': 1, 'prev_value': 0}
+2016-08-22 17:47:07,774 : DEBUG : Events : ^^^^ Processing event 'ball_started'. Type: None, Callback: None, Args: {'player': 1, 'ball': 1}
+2016-08-22 17:47:07,774 : DEBUG : Events : ConfigPlayer.config_play_callback (priority: 0) responding to event 'ball_started' with args {'mode': None, 'player': 1, 'settings': {'slides': {'ball_started': {'priority': None, 'transition_out': None, 'transition': None, 'show': True, 'expire': None, 'force': False, 'action': 'play', 'persist': False, 'target': None}}}, 'ball': 1}
+2016-08-22 17:47:07,776 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_number', priority: 1, kwargs: {}
+2016-08-22 17:47:07,776 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_turn_start', priority: 1, kwargs: {}
+2016-08-22 17:47:07,776 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_ball', priority: 1, kwargs: {}
+2016-08-22 17:47:07,776 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_turn_start', priority: 1, kwargs: {}
+2016-08-22 17:47:07,777 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_number', priority: 1, kwargs: {}
+2016-08-22 17:47:07,777 : DEBUG : Events : Registered Text._player_var_change as a handler for 'player_turn_start', priority: 1, kwargs: {}
+2016-08-22 17:47:07,777 : DEBUG : Events : vvvv Finished event 'ball_started'. Type: None. Callback: None. Args: {'player': 1, 'ball': 1}
+2016-08-22 17:47:07,779 : DEBUG : Player : Setting 'score' to: 0, (prior: 0, change: 0)
+2016-08-22 17:47:07,779 : DEBUG : Events : ^^^^ Posted event 'player_score'. Type: None, Callback: None, Args: {'change': 0, 'value': 0, 'player_num': 1, 'prev_value': 0}
+2016-08-22 17:47:07,779 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 17:47:07,779 : DEBUG : Events : player_score, None, None, {'change': 0, 'value': 0, 'player_num': 1, 'prev_value': 0}
+2016-08-22 17:47:07,779 : DEBUG : Events : =========================================
+2016-08-22 17:47:07,779 : DEBUG : Events : ^^^^ Processing event 'player_score'. Type: None, Callback: None, Args: {'change': 0, 'value': 0, 'player_num': 1, 'prev_value': 0}
+2016-08-22 17:47:07,779 : DEBUG : Events : vvvv Finished event 'player_score'. Type: None. Callback: None. Args: {'change': 0, 'value': 0, 'player_num': 1, 'prev_value': 0}
+2016-08-22 17:47:23,770 : INFO : kivy : Base: Leaving application in progress...
+2016-08-22 17:47:23,802 : INFO : mpfmc : Stopping...
+2016-08-22 17:47:23,803 : INFO : mpfmc : Loop rate 32.98Hz
+2016-08-22 17:47:23,803 : INFO : kivy : MC run loop ended.
+2016-08-22 17:47:23,803 : INFO : kivy : Stopping child threads... (3 remaining)
+2016-08-22 17:47:24,579 : INFO : MPF-MC BCP Server : Stopping BCP sending thread
+2016-08-22 17:47:24,814 : INFO : kivy : All child threads stopped.

@@ -1,0 +1,127 @@
+2016-08-22 15:50:53,771 : INFO : kivy : Factory: 179 symbols loaded
+2016-08-22 15:50:53,772 : DEBUG : kivy : Cache: register <kv.lang> with limit=None, timeout=None
+2016-08-22 15:50:53,841 : DEBUG : kivy : Cache: register <kv.image> with limit=None, timeout=60
+2016-08-22 15:50:53,841 : DEBUG : kivy : Cache: register <kv.atlas> with limit=None, timeout=None
+2016-08-22 15:50:53,859 : INFO : kivy : Image: Providers: img_tex, img_imageio, img_dds, img_gif, img_sdl2 (img_pil, img_ffpyplayer ignored)
+2016-08-22 15:50:53,859 : DEBUG : kivy : Cache: register <kv.texture> with limit=1000, timeout=60
+2016-08-22 15:50:53,859 : DEBUG : kivy : Cache: register <kv.shader> with limit=1000, timeout=3600
+2016-08-22 15:50:53,988 : INFO : kivy : VideoGstplayer: Using Gstreamer 1.4.5.0
+2016-08-22 15:50:53,988 : INFO : kivy : Video: Provider: gstplayer
+2016-08-22 15:50:54,000 : INFO : kivy : Loading MPF-MC controller
+2016-08-22 15:50:54,001 : INFO : mpfmc : Mission Pinball Framework Media Controller v0.30.1
+2016-08-22 15:50:54,001 : INFO : mpfmc : Machine path: /Users/jackbot/pinball/taxi
+2016-08-22 15:50:54,001 : INFO : mpfmc : Starting clock at 30.0Hz
+2016-08-22 15:50:54,002 : DEBUG : Events : Registered ModeController._load_modes as a handler for 'init_phase_2', priority: 1, kwargs: {}
+2016-08-22 15:50:54,002 : DEBUG : Events : Registered ConfigCollection.create_entries_from_root_config as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 15:50:54,006 : INFO : kivy : Text: Provider: sdl2
+2016-08-22 15:50:54,011 : DEBUG : Events : Registered ConfigCollection.create_entries_from_root_config as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 15:50:54,012 : DEBUG : Events : Registered ConfigCollection.create_entries_from_root_config as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 15:50:54,012 : DEBUG : Events : Registered ConfigCollection.create_entries_from_root_config as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 15:50:54,200 : DEBUG : Events : Registered ConfigProcessor._init as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 15:50:54,210 : INFO : kivy : OSC: using <multiprocessing> for socket
+2016-08-22 15:50:54,212 : INFO : kivy : Window: Provider: sdl2
+2016-08-22 15:50:54,301 : INFO : kivy : GL: OpenGL version <b'2.1 INTEL-10.14.73'>
+2016-08-22 15:50:54,301 : INFO : kivy : GL: OpenGL vendor <b'Intel Inc.'>
+2016-08-22 15:50:54,301 : INFO : kivy : GL: OpenGL renderer <b'Intel Iris Pro OpenGL Engine'>
+2016-08-22 15:50:54,302 : INFO : kivy : GL: OpenGL parsed version: 2, 1
+2016-08-22 15:50:54,302 : INFO : kivy : GL: Shading version <b'1.20'>
+2016-08-22 15:50:54,302 : INFO : kivy : GL: Texture max size <16384>
+2016-08-22 15:50:54,302 : INFO : kivy : GL: Texture max units <16>
+2016-08-22 15:50:54,313 : DEBUG : kivy : Shader: Fragment compiled successfully
+2016-08-22 15:50:54,315 : DEBUG : kivy : Shader: Vertex compiled successfully
+2016-08-22 15:50:54,316 : DEBUG : kivy : ImageImageIO: Load </Applications/MPF.app/Contents/Resources/kivy/kivy/data/glsl/default.png>
+2016-08-22 15:50:54,317 : INFO : kivy : Window: auto add sdl2 input provider
+2016-08-22 15:50:54,317 : INFO : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2016-08-22 15:50:54,319 : DEBUG : kivy : Resource: add </Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/fonts> in path list
+2016-08-22 15:50:54,319 : DEBUG : SoundSystem : Loading the Sound System
+2016-08-22 15:50:54,319 : INFO : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2016-08-22 15:50:54,338 : INFO : AudioInterface : Initialized 0.30.0
+2016-08-22 15:50:54,338 : DEBUG : AudioInterface : Loaded SDL 2.0.4
+2016-08-22 15:50:54,338 : DEBUG : AudioInterface : Loaded SDL_Mixer 2.0.0
+2016-08-22 15:50:54,338 : DEBUG : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2016-08-22 15:50:54,339 : DEBUG : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples
+2016-08-22 15:50:54,339 : DEBUG : AudioInterface : Silence audio chunk initialized (required for SDL_Mixer callback)
+2016-08-22 15:50:54,339 : DEBUG : AudioInterface : SDL_Mixer - Allocated 1 channel for final audio output
+2016-08-22 15:50:54,339 : DEBUG : AudioInterface.Track.0.default : Allocated track audio buffer (4096 bytes)
+2016-08-22 15:50:54,339 : DEBUG : AudioInterface : The 'default' track has successfully been created.
+2016-08-22 15:50:54,339 : DEBUG : AudioInterface : Enabling audio playback
+2016-08-22 15:50:54,339 : DEBUG : AssetManager : Initializing...
+2016-08-22 15:50:54,340 : DEBUG : Events : Registered AssetManager._create_assets as a handler for 'init_phase_3', priority: 1, kwargs: {}
+2016-08-22 15:50:54,340 : DEBUG : Events : Registered AssetManager._bcp_client_asset_load as a handler for 'assets_to_load', priority: 1, kwargs: {}
+2016-08-22 15:50:54,340 : DEBUG : kivy : App: Loading kv </Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/core/mpfmc.kv>
+2016-08-22 15:50:54,341 : DEBUG : kivy : App: kv </Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/core/mpfmc.kv> not found
+2016-08-22 15:50:54,342 : DEBUG : kivy : Base: Create provider from mouse
+2016-08-22 15:50:54,342 : INFO : kivy : Base: Start application main loop
+2016-08-22 15:50:54,408 : DEBUG : Events : ^^^^ Posted event 'display_window_ready'. Type: None, Callback: None, Args: {}
+2016-08-22 15:50:54,408 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 15:50:54,408 : DEBUG : Events : display_window_ready, None, None, {}
+2016-08-22 15:50:54,408 : DEBUG : Events : =========================================
+2016-08-22 15:50:54,436 : DEBUG : Events : ^^^^ Processing event 'display_window_ready'. Type: None, Callback: None, Args: {}
+2016-08-22 15:50:54,436 : DEBUG : Events : vvvv Finished event 'display_window_ready'. Type: None. Callback: None. Args: {}
+2016-08-22 15:50:54,437 : DEBUG : Events : ^^^^ Posted event 'display_window_initialized'. Type: None, Callback: None, Args: {}
+2016-08-22 15:50:54,437 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 15:50:54,437 : DEBUG : Events : display_window_initialized, None, None, {}
+2016-08-22 15:50:54,437 : DEBUG : Events : =========================================
+2016-08-22 15:50:54,467 : DEBUG : Events : ^^^^ Processing event 'display_window_initialized'. Type: None, Callback: None, Args: {}
+2016-08-22 15:50:54,467 : DEBUG : Events : vvvv Finished event 'display_window_initialized'. Type: None. Callback: None. Args: {}
+2016-08-22 15:50:54,469 : DEBUG : Events : ^^^^ Posted event 'displays_initialized'. Type: None, Callback: None, Args: {}
+2016-08-22 15:50:54,470 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 15:50:54,470 : DEBUG : Events : displays_initialized, None, None, {}
+2016-08-22 15:50:54,470 : DEBUG : Events : =========================================
+2016-08-22 15:50:54,470 : DEBUG : Events : ^^^^ Processing event 'displays_initialized'. Type: None, Callback: None, Args: {}
+2016-08-22 15:50:54,470 : DEBUG : Events : vvvv Finished event 'displays_initialized'. Type: None. Callback: None. Args: {}
+2016-08-22 15:50:54,472 : DEBUG : Events : Registered McConfigPlayer._initialize as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 15:50:54,473 : DEBUG : Events : Registered McConfigPlayer._initialize as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 15:50:54,473 : DEBUG : Events : Registered McConfigPlayer._initialize as a handler for 'init_phase_1', priority: 1, kwargs: {}
+2016-08-22 15:50:54,474 : DEBUG : Events : ^^^^ Posted event 'init_phase_1'. Type: None, Callback: None, Args: {}
+2016-08-22 15:50:54,474 : DEBUG : Events : ============== EVENTS QUEUE =============
+2016-08-22 15:50:54,474 : DEBUG : Events : init_phase_1, None, None, {}
+2016-08-22 15:50:54,474 : DEBUG : Events : =========================================
+2016-08-22 15:50:54,474 : DEBUG : Events : ^^^^ Processing event 'init_phase_1'. Type: None, Callback: None, Args: {}
+2016-08-22 15:50:54,474 : DEBUG : Events : ConfigCollection.create_entries_from_root_config (priority: 1) responding to event 'init_phase_1' with args {}
+2016-08-22 15:50:54,475 : INFO : kivy : Base: Leaving application in progress...
+2016-08-22 15:50:54,475 : ERROR : kivy : Your config contains a value for the setting "widgets:text:widgets:text:font", but this is not a valid setting name.
+Traceback (most recent call last):
+  File "/Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/commands/mc.py", line 152, in __init__
+    thread_stopper=thread_stopper).run()
+  File "/Applications/MPF.app/Contents/Resources/kivy/kivy/app.py", line 828, in run
+    runTouchApp()
+  File "/Applications/MPF.app/Contents/Resources/kivy/kivy/base.py", line 487, in runTouchApp
+    EventLoop.window.mainloop()
+  File "/Applications/MPF.app/Contents/Resources/kivy/kivy/core/window/window_sdl2.py", line 619, in mainloop
+    self._mainloop()
+  File "/Applications/MPF.app/Contents/Resources/kivy/kivy/core/window/window_sdl2.py", line 362, in _mainloop
+    EventLoop.idle()
+  File "/Applications/MPF.app/Contents/Resources/kivy/kivy/base.py", line 327, in idle
+    Clock.tick()
+  File "/Applications/MPF.app/Contents/Resources/kivy/kivy/clock.py", line 515, in tick
+    self._process_events()
+  File "/Applications/MPF.app/Contents/Resources/kivy/kivy/clock.py", line 647, in _process_events
+    event.tick(self._last_tick, remove)
+  File "/Applications/MPF.app/Contents/Resources/kivy/kivy/clock.py", line 406, in tick
+    ret = callback(self._dt)
+  File "/Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/uix/display.py", line 122, in _displays_initialized
+    self.mc.displays_initialized()
+  File "/Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/core/mc.py", line 204, in displays_initialized
+    self._init()
+  File "/Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/core/mc.py", line 227, in _init
+    self.events.process_event_queue()
+  File "/Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpf/core/events.py", line 481, in process_event_queue
+    **event[3])
+  File "/Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpf/core/events.py", line 416, in _process_event
+    result = handler[0](**merged_kwargs)
+  File "/Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/core/config_collection.py", line 47, in create_entries_from_root_config
+    self.create_entries(self.mc.machine_config[self.config_section])
+  File "/Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/core/config_collection.py", line 58, in create_entries
+    self[name] = self.process_config(settings)
+  File "/Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/config_collections/slide.py", line 29, in process_config
+    config['widgets'][i] = self.mc.widgets.process_widget(widget)
+  File "/Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpfmc/config_collections/widget.py", line 73, in process_widget
+    config['type']).lower(), config, base_spec='widgets:common')
+  File "/Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpf/core/config_validator.py", line 1257, in validate_config
+    validation_failure_info)
+  File "/Applications/MPF.app/Contents/Frameworks/python/3.5.0/lib/python3.5/site-packages/mpf/core/config_validator.py", line 1395, in check_for_invalid_sections
+    'setting "' + path_string + '", but this is not a valid '
+AssertionError: Your config contains a value for the setting "widgets:text:widgets:text:font", but this is not a valid setting name.
+2016-08-22 15:50:54,478 : INFO : kivy : Stopping child threads... (1 remaining)
+2016-08-22 15:50:55,387 : INFO : kivy : All child threads stopped.

@@ -1,0 +1,28 @@
+2016-08-22 16:08:01,019 : INFO : kivy : Factory: 179 symbols loaded
+2016-08-22 16:08:01,110 : INFO : kivy : Image: Providers: img_tex, img_imageio, img_dds, img_gif, img_sdl2 (img_pil, img_ffpyplayer ignored)
+2016-08-22 16:08:01,238 : INFO : kivy : VideoGstplayer: Using Gstreamer 1.4.5.0
+2016-08-22 16:08:01,238 : INFO : kivy : Video: Provider: gstplayer
+2016-08-22 16:08:01,250 : INFO : kivy : Loading MPF-MC controller
+2016-08-22 16:08:01,250 : INFO : mpfmc : Mission Pinball Framework Media Controller v0.30.1
+2016-08-22 16:08:01,251 : INFO : mpfmc : Machine path: /Users/jackbot/pinball/taxi
+2016-08-22 16:08:01,251 : INFO : mpfmc : Starting clock at 30.0Hz
+2016-08-22 16:08:01,256 : INFO : kivy : Text: Provider: sdl2
+2016-08-22 16:08:01,448 : INFO : kivy : OSC: using <multiprocessing> for socket
+2016-08-22 16:08:01,450 : INFO : kivy : Window: Provider: sdl2
+2016-08-22 16:08:01,545 : INFO : kivy : GL: OpenGL version <b'2.1 INTEL-10.14.73'>
+2016-08-22 16:08:01,546 : INFO : kivy : GL: OpenGL vendor <b'Intel Inc.'>
+2016-08-22 16:08:01,546 : INFO : kivy : GL: OpenGL renderer <b'Intel Iris Pro OpenGL Engine'>
+2016-08-22 16:08:01,546 : INFO : kivy : GL: OpenGL parsed version: 2, 1
+2016-08-22 16:08:01,547 : INFO : kivy : GL: Shading version <b'1.20'>
+2016-08-22 16:08:01,547 : INFO : kivy : GL: Texture max size <16384>
+2016-08-22 16:08:01,547 : INFO : kivy : GL: Texture max units <16>
+2016-08-22 16:08:01,563 : INFO : kivy : Window: auto add sdl2 input provider
+2016-08-22 16:08:01,564 : INFO : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2016-08-22 16:08:01,565 : INFO : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2016-08-22 16:08:01,589 : INFO : AudioInterface : Initialized 0.30.0
+2016-08-22 16:08:01,591 : INFO : kivy : Base: Start application main loop
+2016-08-22 16:08:01,728 : INFO : kivy : GL: NPOT texture support is available
+2016-08-22 16:08:01,733 : INFO : MPF-MC BCP Server : Starting up on localhost port 5050
+2016-08-22 16:08:01,734 : INFO : MPF-MC BCP Server : Waiting for a connection...
+2016-08-22 16:08:01,776 : INFO : MPF-MC BCP Server : Received connection from: 127.0.0.1:49754
+2016-08-22 16:08:14,892 : INFO : kivy : Base: Leaving application in progress...

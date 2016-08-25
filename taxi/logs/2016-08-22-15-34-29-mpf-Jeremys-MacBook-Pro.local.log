@@ -1,0 +1,11 @@
+2016-08-22 15:34:29,245 : INFO : Machine : Mission Pinball Framework Core Engine v0.30.26
+2016-08-22 15:34:29,245 : INFO : Machine : Machine path: /Users/jackbot/pinball/taxi
+2016-08-22 15:34:29,429 : INFO : Machine : Loading config from original files
+2016-08-22 15:34:29,470 : INFO : Machine : Machine config file #1: /Users/jackbot/pinball/taxi/config/config
+2016-08-22 15:34:29,483 : INFO : Machine : Config file cache created: /var/folders/w9/n57l794j2w1bqgd7vztrzgg00000gn/T/6c3af7dff5de8b7b1196672fc5f1a1c6config
+2016-08-22 15:34:29,483 : INFO : Machine : Starting clock at 30.0Hz
+2016-08-22 15:34:29,538 : INFO : BCPClientSocket.local_display : Connecting to BCP Media Controller at localhost:5050...
+2016-08-22 15:34:30,269 : INFO : Mode.attract : Mode Starting. Priority: 10
+2016-08-22 15:37:17,396 : INFO : Machine : Shutting down...
+2016-08-22 15:37:17,397 : INFO : Machine : Actual MPF loop rate: 30.86 Hz
+2016-08-22 15:37:17,397 : INFO : root : MPF run loop ended.

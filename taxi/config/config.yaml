@@ -1,0 +1,394 @@
+#config_version=4
+
+#################
+# Game:
+#     Taxi
+#     http://www.ipdb.org/machine.cgi?id=2505
+# Notable Features:
+#     Flippers (2), Pop bumpers (3), Slingshots (2),
+#     Kick-out holes (2), 3-bank drop targets (2),
+#     Standup target (1).
+#     A left-side catapult propels the ball airborne into a habitrail.
+#     A plunger lane skill shot shoots the ball into the "Spin-Out" whirlpool
+#     to score up to 100,000 points
+#
+# Created:
+#     June 5, 2016
+# Updated:
+#     August 22, 2016
+# Version:
+#     0.2
+# Created by:
+#     Jeremy T. Edwards - jeremytedwards@gmail.com
+# Updated by:
+#     Jeremy T. Edwards - jeremytedwards@gmail.com
+#
+# To start vm
+# $ . ~/pinball/mpf/bin/activate
+#
+# To run table connected
+# $ cd ~/pinball/taxi
+# $ mpf both -v -b
+#
+# To run table Vitural Mode
+# $ cd ~/pinball/taxi
+# $ mpf -x -v
+#
+#################
+
+## Commented out for testing without hardware
+#hardware:
+#    platform: fast
+#    driverboards: fast
+#     driverboards: wpc
+#
+#
+#fast:
+#    ports: com3, com4, com5
+
+
+switches:
+    ## 1 - Plumb Bob Tilt ##
+    s_plumb_bob_tilt:
+        number: 00
+
+    ## 2 - Not Used ##
+
+    ## 3 - Credit Button ##
+    s_credit_button:
+        number: 00
+
+    ## 4 - Right Coin Chute ##
+    s_r_coin_chute:
+        number: 00
+
+    ## 5 - Not Used ##
+
+    ## 6 - Left Coin Chute ##
+    s_l_coin_chute:
+        number: 00
+
+    ## 7 - Slam Tilt ##
+    s_slam_tilt:
+        number: 00
+
+    ## 8 - High Score Reset ##
+    s_high_score_reset:
+        number: 00
+
+    ## 9 - Playfield Tilt ##
+    s_playfield_tilt:
+        number: 00
+
+    ## 10 - Outhole ##
+    s_outhole:
+        number: 00
+
+    ## 11 - Ball Trough 1 ##
+    s_ball_trough_1:
+        number: 00
+
+    ## 12 - Ball Trough 2 ##
+    s_ball_trough_2:
+        number: 00
+
+    ## 13 - JoyRide Eject Hole ##
+    s_joyride_eject:
+        number: 00
+
+    ## 14 - C Lane ##
+    s_c_lane:
+        number: 00
+
+    ## 15 - A Lane ##
+    s_a_lane:
+        number: 00
+
+    ## 16 - B Lane ##
+    s_b_lane:
+        number: 00
+
+    ## 17 - Left Jet Bumper ##
+    s_l_jet_bumper:
+        number: 00
+
+    ## 18 - Left Kicker ##
+    s_l_kicker:
+        number: 00
+
+    ## 19 - Right Jet Bumper ##
+    s_r_jet_bumper:
+        number: 00
+
+    ## 20 - Right Kicker ##
+    s_r_kicker:
+        number: 00
+
+    ## 21 - Lower Jet Bumper ##
+    s_lower_jet_bumper:
+        number: 00
+
+    ## 22 - Ball Shooter Lane ##
+    s_ball_shooter_lane:
+        number: 00
+
+    ## 23 - Top Lane Entry ##
+    s_top_lane_entry:
+        number: 00
+
+    ## 24 - Carry Passengers Target ##
+    s_carry_passengers_target:
+        number: 00
+
+    ## 25 - Left Ramp Entry ##
+    s_l_ramp_entry:
+        number: 00
+
+    ## 26 - Right Ramp Entry ##
+    s_r_ramp_entry:
+        number: 00
+
+
+
+    ## Plumb Credit Button ##
+    s_credit:
+        number: 00
+
+    ## Start Button ##
+    s_start:
+        number: 03
+        tags: start
+
+    ## Launch Button ##
+    s_launch_button:
+        number: 01
+        tags: launch
+
+    ## Flippers (2) ##
+    s_left_flipper:
+        number: 02
+    s_right_flipper:
+        number: 03
+
+    ## Ball Trough (6?) ##
+
+
+    ## Plunger Lane ##
+    s_plunger_lane:
+        number: 09
+
+    ## Slingshots (2) ##
+    s_left_sling:
+        number: 11
+    s_right_sling:
+        number: 11
+
+    ## Pop bumpers (3) ##
+    s_top_left_pop:
+        number: 12
+    s_top_right_pop:
+        number: 13
+    s_top_center_pop:
+        number: 14
+
+    ## Spin-Out (1) ##
+    s_spinout:
+      number: 15
+      tags: playfield_active
+
+    ## Spin-Out ##
+    s_spinout_saucer:
+        number: 16
+
+    ## Dracula ##
+    s_dracula_saucer:
+        number: 17
+
+    ## Santa ##
+    s_santa_saucer:
+        number: 18
+
+    ## Pinbot ##
+    s_pinbot_saucer:
+        number: 19
+
+    ## 3-bank drop targets (2) ##
+    ## Lola ##
+    ## Pinbot ##
+
+    ## Standup target (1) ##
+    ## Santa ##
+
+
+coils:
+    ## Flippers (2) ##
+    c_flipper_left_main:
+        number: 00
+        pulse_ms: 20
+    c_flipper_left_hold:
+        number: 01
+        allow_enable: true
+    c_flipper_right_main:
+        number: 02
+        pulse_ms: 20
+    c_flipper_right_hold:
+        number: 03
+        allow_enable: true
+
+    ## Ball Trough Eject (?) ##
+    c_trough_eject:
+        number: 04
+        pulse_ms: 20
+
+    ## Shooter Lane Auto-launch ##
+    c_plunger_eject:
+        number: 05
+        pulse_ms: 25
+
+    ## Slingshots (2) ##
+    c_left_sling:
+        number: 06
+    c_right_sling:
+        number: 07
+
+    ## Pop bumpers (3) ##
+    c_top_left_pop:
+        number: 08
+    c_top_right_pop:
+        number: 09
+    c_top_center_pop:
+        number: 10
+
+    ## Spin-Out ##
+    c_spinout_saucer:
+        number: 11
+
+    ## Dracula ##
+    c_dracula_saucer:
+        number: 12
+
+    ## Santa ##
+    c_santa_saucer:
+        number: 13
+
+    ## Pinbot ##
+    c_pinbot_saucer:
+        number: 14
+
+    ## 3-bank drop targets (2) ##
+    ## Lola ##
+    ## Pinbot ##
+
+
+    ## Standup target (1) ##
+    ## Santa ##
+
+
+keyboard:
+    s:
+        switch: s_start
+    z:
+        switch: s_left_flipper
+    /:
+        switch: s_right_flipper
+    1:
+        switch: s_trough1
+        toggle: true
+    2:
+        switch: s_trough2
+        toggle: true
+    3:
+        switch: s_trough3
+        toggle: true
+    4:
+        switch: s_trough4
+        toggle: true
+    5:
+        switch: s_trough5
+        toggle: true
+    6:
+        switch: s_trough6
+        toggle: true
+    p:
+        switch: s_plunger_lane
+        toggle: true
+    l:
+        switch: s_launch_button
+
+    # Playfield activated #
+    a:
+        switch: s_spinout
+
+
+flippers:
+    left_flipper:
+        main_coil: c_flipper_left_main
+        hold_coil: c_flipper_left_hold
+        activation_switch: s_left_flipper
+#        enable_events: machine_reset_phase_3
+    right_flipper:
+        main_coil: c_flipper_right_main
+        hold_coil: c_flipper_right_hold
+        activation_switch: s_right_flipper
+#        enable_events: machine_reset_phase_3
+
+
+ball_devices:
+    bd_trough:
+        ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5, s_trough6, s_trough_jam
+        eject_coil: c_trough_eject
+        eject_targets: bd_plunger
+        entrance_count_delay: 300ms
+        tags: trough, home, drain
+        debug: yes
+    bd_plunger:
+        ball_switches: s_plunger_lane
+        eject_coil: c_plunger_eject
+        eject_timeouts: 3s
+        mechanical_eject: true
+        player_controlled_eject_event: sw_launch
+        tags: ball_add_live
+        debug: yes
+
+displays:
+    window:
+        width: 800
+        height: 600
+
+
+slide_player:
+    mc_ready: welcome_slide
+    mode_attract_started: attract_started
+    ball_started: ball_started
+
+
+slides:
+    welcome_slide:
+      widgets:
+        - type: text
+          text: Player 1
+          font_size: 50
+          color: ffbf00
+        - type: rectangle
+          width: 240
+          height: 60
+    attract_started:
+      widgets:
+        - type: text
+          text: ATTRACT MODE - PRESS START
+    ball_started:
+      widgets:
+        - type: text
+          text: PLAYER (number) BALL (ball)
+
+
+#################
+# Virtual Platform Configuration
+#################
+virtual_platform_start_active_switches:
+    s_trough1
+    s_trough2
+    s_trough3
+    s_trough4
+    s_trough5
+    s_trough6
