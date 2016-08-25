@@ -1,0 +1,13 @@
+#config_version=4
+
+####################
+# Mode: Default
+# In this mode here is what should happen...
+####################
+
+mode:
+  start_events: game_start
+  stop_events: game_end
+  priority: 10
+
+  # Events: game_started, ball_starting, ball_ending, ball_ended, game_ending, and game_ended

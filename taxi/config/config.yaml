@@ -1,8 +1,7 @@
 #config_version=4
 
 ####################
-# Game:
-#     Taxi
+# Game: Taxi
 #     http://www.ipdb.org/machine.cgi?id=2505
 # Notable Features:
 #     Flippers (2), Pop bumpers (3), Slingshots (2),
@@ -502,13 +501,17 @@ slides:
           text: PLAYER (number) BALL (ball) [p,2,l,a,y,2]
 
 
+####################
+# Modes
+####################
+modes:
+  - skill_shot
+  - default
+
+
 #################
 # Virtual Platform Configuration
 #################
 virtual_platform_start_active_switches:
     s_ball_trough_1
     s_ball_trough_2
-#    s_trough3
-#    s_trough4
-#    s_trough5
-#    s_trough6
