@@ -14,14 +14,15 @@
 #
 # Created:
 #     June 5, 2016
-# Updated:
-#     August 22, 2016
-# Version:
-#     0.2
 # Created by:
 #     Jeremy T. Edwards - jeremytedwards@gmail.com
+#
+# Updated:
+#     August 22, 2016
 # Updated by:
 #     Jeremy T. Edwards - jeremytedwards@gmail.com
+# Version:
+#     0.2
 #
 # To start vm
 # $ . ~/pinball/mpf/bin/activate
