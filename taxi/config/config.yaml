@@ -1,6 +1,6 @@
 #config_version=4
 
-#################
+####################
 # Game:
 #     Taxi
 #     http://www.ipdb.org/machine.cgi?id=2505
@@ -35,19 +35,25 @@
 # $ cd ~/pinball/taxi
 # $ mpf -x -v
 #
-#################
+####################
 
+
+####################
+# Hardware
+####################
 ## Commented out for testing without hardware
 #hardware:
 #    platform: fast
 #    driverboards: fast
-#     driverboards: wpc
-#
+#    driverboards: wpc
 #
 #fast:
 #    ports: com3, com4, com5
 
 
+####################
+# Switches
+####################
 switches:
     ## 1 - Plumb Bob Tilt ##
     s_plumb_bob_tilt:
@@ -60,13 +66,13 @@ switches:
         number: 003
 
     ## 4 - Right Coin Chute ##
-    s_r_coin_chute:
+    s_right_coin_chute:
         number: 004
 
     ## 5 - Not Used ##
 
     ## 6 - Left Coin Chute ##
-    s_l_coin_chute:
+    s_left_coin_chute:
         number: 006
 
     ## 7 - Slam Tilt ##
@@ -93,8 +99,8 @@ switches:
     s_ball_trough_2:
         number: 012
 
-    ## 13 - JoyRide Eject Hole ##
-    s_joyride_eject:
+    ## 13 - JoyRide(Santa) Eject Hole ##
+    s_santa_eject:
         number: 013
 
     ## 14 - C Lane ##
@@ -110,23 +116,23 @@ switches:
         number: 016
 
     ## 17 - Left Jet Bumper ##
-    s_l_jet_bumper:
+    s_left_jet_bumper:
         number: 017
 
     ## 18 - Left Kicker ##
-    s_l_kicker:
+    s_left_kicker:
         number: 018
 
     ## 19 - Right Jet Bumper ##
-    s_r_jet_bumper:
+    s_right_jet_bumper:
         number: 019
 
     ## 20 - Right Kicker ##
-    s_r_kicker:
+    s_right_kicker:
         number: 020
 
     ## 21 - Lower(middle) Jet Bumper ##
-    s_m_jet_bumper:
+    s_middle_jet_bumper:
         number: 021
 
     ## 22 - Ball Shooter Lane ##
@@ -142,47 +148,47 @@ switches:
         number: 024
 
     ## 25 - Left Ramp Entry ##
-    s_l_ramp_entry:
+    s_left_ramp_entry:
         number: 025
 
     ## 26 - Right Ramp Entry ##
-    s_r_ramp_entry:
+    s_right_ramp_entry:
         number: 026
 
     ## 27 - Lola 3-Bank Drop Target - Left ##
-    s_l_lola_target:
+    s_left_lola_target:
         number: 027
 
     ## 28 - Lola 3-Bank Drop Target - Middle ##
-    s_m_lola_target:
+    s_middle_lola_target:
         number: 028
 
     ## 29 - Lola 3-Bank Drop Target - Right ##
-    s_r_lola_target:
+    s_right_lola_target:
         number: 029
 
     ## 30 - Pinbot 3-Bank Drop Target - Top ##
-    s_l_pinbot_target:
+    s_left_pinbot_target:
         number: 030
 
     ## 31 - Pinbot 3-Bank Drop Target - Middle ##
-    s_m_pinbot_target:
+    s_middle_pinbot_target:
         number: 031
 
     ## 32 - Pinbot 3-Bank Drop Target - Bottom ##
-    s_r_pinbot_target:
+    s_right_pinbot_target:
         number: 032
 
     ## 33 - Right Ramp ##
-    s_r_ramp:
+    s_right_ramp:
         number: 033
 
     ## 34 - Left Ramp ##
-    s_l_ramp:
+    s_left_ramp:
         number: 034
 
-    ## 35 - Drac Catapult ##
-    s_drac_catapult:
+    ## 35 - Dracula Catapult ##
+    s_dracula_catapult:
         number: 35
 
     ## 36 - Pinbot Eject Hole ##
@@ -190,19 +196,19 @@ switches:
         number: 036
 
     ## 37 - Left Outlane Drain ##
-    s_l_outlane:
+    s_left_outlane:
         number: 037
 
     ## 38 - Left Return Lane ##
-    s_l_return_lane:
+    s_left_return_lane:
         number: 038
 
     ## 39 - Right Outlane Drain ##
-    s_r_outlane:
+    s_right_outlane:
         number: 039
 
     ## 40 - Right Return Lane ##
-    s_r_return_lane:
+    s_right_return_lane:
         number: 040
 
     ## 41 - Not Used ##
@@ -210,7 +216,7 @@ switches:
     ## 42 - Not Used  ##
 
     ## 43 - Spinout - Kickbig ##
-    s_spinout_saucer:
+    s_spinout_kickout:
         number: 043
 
     ## 44 - Spinout - Counter ##
@@ -247,10 +253,8 @@ switches:
     ## 63 - Not Used ##
     ## 64 - Not Used ##
 
+## Switches - Used in Testing ##
 
-#################
-# Used in Testing
-#################
     ## Start Button - [Used in Testing] ##
     s_start:
         number: 098
@@ -262,18 +266,21 @@ switches:
         tags: launch
 
 
+####################
+# Coils
+####################
 coils:
     ## Flippers (2) ##
-    c_flipper_left_main:
+    c_left_flipper_main:
         number: 000
         pulse_ms: 20
-    c_flipper_left_hold:
+    c_left_flipper_hold:
         number: 001
         allow_enable: true
-    c_flipper_right_main:
+    c_right_flipper_main:
         number: 002
         pulse_ms: 20
-    c_flipper_right_hold:
+    c_right_flipper_hold:
         number: 003
         allow_enable: true
 
@@ -283,20 +290,20 @@ coils:
         pulse_ms: 20
 
     ## Slingshots (2) ##
-    c_left_sling:
+    c_left_slingshot:
         number: 006
-    c_right_sling:
+    c_right_slingshot:
         number: 007
 
     ## Jet Bumpers (3) - Left, Right, Middle ##
-    c_l_jet_bumper:
+    c_left_jet_bumper:
         number: 008
-    c_r_jet_bumper:
+    c_right_jet_bumper:
         number: 009
-    c_m_jet_bumper:
+    c_middle_jet_bumper:
         number: 010
 
-    ## Spin-Out - Kickout##
+    ## Spin-Out - Kickout ##
     c_spinout_kickout:
         number: 011
 
@@ -304,11 +311,12 @@ coils:
     c_dracula_catapult:
         number: 012
 
-    ## Santa - Saucer Eject ##
-    c_santa_kickout:
-        number: 013
+    ## JoyRide(Santa) - Saucer Eject ##
     c_santa_eject:
         number: 014
+
+#    c_santa_kickout:
+#        number: 013
 
     ## Pinbot - Saucer Eject ##
     c_pinbot_eject:
@@ -320,17 +328,16 @@ coils:
     ## Pinbot - 3-bank drop targets (2) - Reset ##
     ## Not in standard game ##
 
+## Coils - Used in Testing ##
 
-#################
-# Used in Testing
-#################
     ## Shooter Lane Auto-launch ##
-    ## Not in standard game ##
     c_plunger_eject:
         number: 099
         pulse_ms: 25
 
-
+####################
+# Keyboard
+####################
 keyboard:
     s:
         switch: s_start
@@ -354,24 +361,30 @@ keyboard:
     l:
         switch: s_launch_button
 
-    # Playfield activated #
+## Playfield activated ##
     a:
         switch: s_spinout_counter
 
 
+####################
+# Flippers
+####################
 flippers:
     left_flipper:
-        main_coil: c_flipper_left_main
-        hold_coil: c_flipper_left_hold
+        main_coil: c_left_flipper_main
+        hold_coil: c_left_flipper_hold
         activation_switch: s_left_flipper
 #        enable_events: machine_reset_phase_3
     right_flipper:
-        main_coil: c_flipper_right_main
-        hold_coil: c_flipper_right_hold
+        main_coil: c_right_flipper_main
+        hold_coil: c_right_flipper_hold
         activation_switch: s_right_flipper
 #        enable_events: machine_reset_phase_3
 
 
+####################
+# Ball Devices
+####################
 ball_devices:
     bd_trough:
         ball_switches: s_ball_trough_1, s_ball_trough_2
@@ -380,6 +393,39 @@ ball_devices:
         entrance_count_delay: 300ms
         tags: trough, home, drain
         debug: yes
+
+    bd_spinout_kickout:
+        ball_switches: s_spinout_kickout
+        eject_coil: c_spinout_kickout
+        eject_timeouts: 3s
+        debug: yes
+
+#    bd_santa_kickout:
+#        ball_switches: s_santa_kickout
+#        eject_coil: c_santa_kickout
+#        eject_timeouts: 3s
+#        debug: yes
+
+    bd_santa_eject:
+        ball_switches: s_santa_eject
+        eject_coil: c_santa_eject
+        eject_timeouts: 3s
+        debug: yes
+
+    bd_dracula_catapult:
+        ball_switches: s_dracula_catapult
+        eject_coil: c_dracula_catapult
+        eject_timeouts: 3s
+        debug: yes
+
+    bd_pinbot_eject:
+        ball_switches: s_pinbot_eject
+        eject_coil: c_pinbot_eject
+        eject_timeouts: 3s
+        debug: yes
+
+    ## Shooter Lane Auto-launch ##
+    ## Not in standard game ##
     bd_plunger:
         ball_switches: s_ball_shooter_lane
         eject_coil: c_plunger_eject
@@ -389,18 +435,53 @@ ball_devices:
         tags: ball_add_live
         debug: yes
 
+
+####################
+# Auto-Fire Coils
+####################
+autofire_coils:
+    ## Slingshots (2) ##
+    left_slingshot:
+        coil: c_left_slingshot
+        switch: s_left_slingshot
+    right_slingshot:
+        coil: c_right_slingshot
+        switch: s_right_slingshot
+
+    ## Jet Bumpers (3) - Left, Right, Middle ##
+    left_jet:
+        coil: c_left_jet_bumper
+        switch: s_left_jet_bumper
+    right_jet:
+        coil: c_right_jet_bumper
+        switch: s_right_jet_bumper
+    middle_jet:
+        coil: c_middle_jet_bumper
+        switch: s_middle_jet_bumper
+
+
+
+####################
+# Displays
+####################
 displays:
     window:
         width: 800
         height: 600
 
 
+####################
+# Slide Player
+####################
 slide_player:
     mc_ready: welcome_slide
     mode_attract_started: attract_started
     ball_started: ball_started
 
 
+####################
+# Slides
+####################
 slides:
     welcome_slide:
       widgets:
@@ -418,7 +499,7 @@ slides:
     ball_started:
       widgets:
         - type: text
-          text: PLAYER (number) BALL (ball) [p,l,a,y,2]
+          text: PLAYER (number) BALL (ball) [p,2,l,a,y,2]
 
 
 #################
