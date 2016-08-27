@@ -118,16 +118,16 @@ switches:
     s_left_jet_bumper:
         number: 017
 
-    ## 18 - Left Kicker ##
-    s_left_kicker:
+    ## 18 - Left Kicker(Slingshot) ##
+    s_left_slingshot:
         number: 018
 
     ## 19 - Right Jet Bumper ##
     s_right_jet_bumper:
         number: 019
 
-    ## 20 - Right Kicker ##
-    s_right_kicker:
+    ## 20 - Right Kicker(Slingshot) ##
+    s_right_slingshot:
         number: 020
 
     ## 21 - Lower(middle) Jet Bumper ##
@@ -475,7 +475,6 @@ displays:
 slide_player:
     mc_ready: welcome_slide
     mode_attract_started: attract_started
-    ball_started: ball_started
 
 
 ####################
@@ -485,7 +484,7 @@ slides:
     welcome_slide:
       widgets:
         - type: text
-          text: Player 1
+          text: Williams Pinball
           font_size: 50
           color: ffbf00
         - type: rectangle
@@ -495,10 +494,6 @@ slides:
       widgets:
         - type: text
           text: ATTRACT MODE - PRESS START [s]
-    ball_started:
-      widgets:
-        - type: text
-          text: PLAYER (number) BALL (ball) [p,2,l,a,y,2]
 
 
 ####################
@@ -513,8 +508,6 @@ modes:
 
   # Priority 100
   - base
-
-  # Priority 10
   - skill_shot
 
 

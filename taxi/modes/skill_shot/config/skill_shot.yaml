@@ -6,6 +6,6 @@
 ####################
 
 mode:
-  priority: 10
+  priority: 100
   start_events: ball_starting
   stop_events: # ball drops into spinout kickout
