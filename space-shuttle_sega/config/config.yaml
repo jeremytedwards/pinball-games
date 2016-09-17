@@ -395,10 +395,17 @@ autofire_coils:
 ####################
 displays:
     window:
-        width: 800
-        height: 600
+      width: 1280
+      height: 800
+      title: Your ultimate pinball
+      resizable: false
+      fullscreen: auto
+      borderless: false
+      exit_on_escape: true
 
-
+    kivy_config:
+      graphics:
+            fbo: force-hardware
 ####################
 # Slide Player
 ####################
