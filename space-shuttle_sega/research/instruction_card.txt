@@ -8,7 +8,7 @@ also the number at the end of the "O" does not match the e)
 
 "SPECIAL"
 4 one gate all of the top (A - B - C - D) and passed through, SPECIAL lamp is lit,
-or passed trhough the gate are Akarii, when Akarii to have will be shed and 1 CREDIT added
+or passed trhough the gate are Akarii (special lit), when Akarii to have will be shed and 1 CREDIT added
 to the target
 
 "EXTRA BALL CHANCE"
@@ -17,3 +17,4 @@ or through the will-lit
 
 "BONUS SCORE" switch strike another ball when it is out Paul,
 BONUS score is added, and DOUBLE BONUS lamp is lit, it will lbe added twice
+

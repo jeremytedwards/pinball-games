@@ -19,22 +19,26 @@
 #     Jeremy T. Edwards - jeremytedwards@gmail.com
 #
 # Updated:
-#     August 28, 2016
+#     October 14, 2016
 # Updated by:
 #     Jeremy T. Edwards - jeremytedwards@gmail.com
 # Version:
-#     0.1
+#     0.2
 #
-# To start vm
-# $ . ~/pinball/mpf/bin/activate
+# Using vm
+# $ . ~/pinball/v-mpf/bin/activate
+# $ . ~/pinball/v-mpf/bin/deactivate
+#
+# Run monitor for testing game in real time (separate window)
+# $ kivy -m mpf monitor
 #
 # To run table connected
 # $ cd ~/pinball-games/space-shuttle_sega
-# $ mpf both -v -b
+# $ kivy -m mpf both
 #
 # To run table Vitural Mode
 # $ cd ~/pinball-games/space-shuttle_sega
-# $ mpf -x -v
+# $ kivy -m mpf both -X
 #
 ####################
 
@@ -43,13 +47,13 @@
 # Hardware
 ####################
 ## Commented out for testing without hardware
-#hardware:
-#    platform: fast
-#    driverboards: fast
-#    driverboards: wpc
+hardware:
+    platform: fast
+    driverboards: fast
+    driverboards: wpc
 #
-#fast:
-#    ports: com3, com4, com5
+fast:
+    ports: com3, com4, com5
 
 
 ####################
@@ -58,41 +62,41 @@
 switches:
     ## 1 - Plumb Bob Tilt ##
     s_plumb_bob_tilt:
-        number:
+        number: 000
 
     ## 2 - Match Button - Yellow ##
     s_match_button:
-        number:
+        number: 000
 
     ## 3 - Credit Button - Red ##
     s_credit_button:
-        number:
+        number: 000
 
     ## 4 - Right Coin Chute ##
     s_right_coin_chute:
-        number:
+        number: 000
 
     ## 5 - Not Used ##
 
     ## 6 - Left Coin Chute ##
     s_left_coin_chute:
-        number:
+        number: 000
 
     ## 7 - Slam Tilt ##
     s_slam_tilt:
-        number:
+        number: 000
 
     ## 8 - High Score Reset ##
     s_high_score_reset:
-        number:
+        number: 000
 
     ## 9 - Playfield Tilt ##
     s_playfield_tilt:
-        number:
+        number: 000
 
     ## 10 - Outhole ##
     s_outhole:
-        number:
+        number: 000
 
     ## 11 - Ball Trough 1 ##
     s_ball_trough_1:
@@ -100,11 +104,11 @@ switches:
 
     ## 12 - Ball Trough 2 ##
     s_ball_trough_2:
-        number:
+        number: 000
 
     ## 13 - Tower Eject Hole ##
     s_tower_eject:
-        number:
+        number: 000
 
     ## 15 - Top Left Yellow Rollover ##
     s_l_yellow_rollover:
@@ -136,7 +140,7 @@ switches:
 
     ## 14 - Middle 10k Stand up ##
     s_m_10k_standup:
-        number:
+        number: 000
 
     ## 14 - Right 5k Stand up ##
     s_r_5k_standup:
@@ -154,7 +158,6 @@ switches:
     s_r_captive_2:
         number: 18
 
-
     ## 14 - Left 5k Advance Bonus - Above Spinner ##
     s_l_5k_advance_bonus:
         number: 15
@@ -169,7 +172,7 @@ switches:
 
     ## 19 - Right Jet Bumper ##
     s_right_jet_bumper:
-        number:
+        number: 000
 
     ## 14 - Middle Spinner##
     s_m_spinner:
@@ -198,7 +201,7 @@ switches:
 
     ## 22 - Ball Shooter Lane ##
     s_ball_shooter_lane:
-        number:
+        number: 000
 
     ## 23 - Top Lane Entry ##
     s_top_lane_entry:
@@ -279,7 +282,7 @@ coils:
         number: 009
 
     ## Right "Tower" Eject ##
-    c_santa_eject:
+    c_tower_eject:
         number: 014
 
 
@@ -393,50 +396,26 @@ autofire_coils:
 ####################
 # Displays
 ####################
-displays:
-    window:
-      width: 1280
-      height: 800
-      title: Your ultimate pinball
-      resizable: false
-      fullscreen: auto
-      borderless: false
-      exit_on_escape: true
 
-    kivy_config:
-      graphics:
-            fbo: force-hardware
+# N/A
+
 ####################
 # Slide Player
 ####################
-slide_player:
-    mc_ready: welcome_slide
-    mode_attract_started: attract_started
 
+# N/A
 
 ####################
 # Slides
 ####################
-slides:
-    welcome_slide:
-      widgets:
-        - type: text
-          text: SEGA Pinball
-          font_size: 50
-          color: ffbf00
-        - type: rectangle
-          width: 240
-          height: 60
-    attract_started:
-      widgets:
-        - type: text
-          text: ATTRACT MODE - PRESS START [s]
+
+# N/A
 
 
 ####################
 # Modes
 ####################
-modes:
+#modes:
 #  # Priority 1,000,000
 #  - tilt
 
@@ -444,8 +423,8 @@ modes:
 #  - high_score
 
   # Priority 100
-  - base
-  - skill_shot
+#  - base
+#  - skill_shot
 
 
 
