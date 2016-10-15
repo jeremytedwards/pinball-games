@@ -1,0 +1,34 @@
+#show_version=4
+
+
+####################
+# Attract Light Show
+####################
+- duration: 1
+  leds:
+    l_a: yellow
+    l_b: red
+    l_c: red
+    l_d: red
+- duration: 1
+  leds:
+    l_a: red
+    l_b: yellow
+    l_c: red
+    l_d: red
+- duration: 1
+  leds:
+    l_a: red
+    l_b: red
+    l_c: yellow
+    l_d: red
+- duration: 1
+  leds:
+    l_a: red
+    l_b: red
+    l_c: red
+    l_d: yellow
+
+
+
+

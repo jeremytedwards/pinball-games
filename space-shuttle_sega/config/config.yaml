@@ -37,6 +37,7 @@
 # $ kivy -m mpf both
 #
 # To run table Vitural Mode
+# (-X means don't talk to hardware)
 # $ cd ~/pinball-games/space-shuttle_sega
 # $ kivy -m mpf both -X
 #
@@ -52,7 +53,18 @@ hardware:
     driverboards: fast
 
 fast:
-    ports: com3, com4, com5
+    # ports for PC
+#    ports: com3, com4, com5
+
+    # ports for MAC
+    ports: /dev/tty.usbserial-1413B, /dev/tty.usbserial-1413C
+
+
+#################
+# Virtual Platform Configuration
+#################
+virtual_platform_start_active_switches:
+    s_ball_trough_1
 
 
 ####################
@@ -63,13 +75,13 @@ switches:
 #    s_plumb_bob_tilt:
 #        number: 000
 
-    ## 2 - Match Button - Yellow ##
-    s_match_button:
-        number: 000
-
-    ## 3 - Credit Button - Red ##
-    s_credit_button:
-        number: 000
+#    ## 2 - Match Button - Yellow ##
+#    s_match_button:
+#        number: 000
+#
+#    ## 3 - Credit Button - Red ##
+#    s_credit_button:
+#        number: 000
 
     ## 4 - Right Coin Chute ##
 #    s_right_coin_chute:
@@ -89,7 +101,7 @@ switches:
 
     ## 13 - Tower Eject Hole ##
     s_tower_eject:
-        number: 000
+        number: 06
 
     ## 15 - Top Left Yellow Rollover ##
     s_l_yellow_rollover:
@@ -119,9 +131,9 @@ switches:
     s_l_match_standup:
         number: 07
 
-    ## 14 - Middle 10k Stand up ##
-    s_m_10k_standup:
-        number: 000
+#    ## 14 - Middle 10k Stand up ##
+#    s_m_10k_standup:
+#        number: 000
 
     ## 14 - Right 5k Stand up ##
     s_r_5k_standup:
@@ -143,7 +155,7 @@ switches:
     s_l_5k_advance_bonus:
         number: 15
 
-    ## 14 - Left Spinner##
+    ## 14 - Left Spinner ##
     s_l_spinner:
         number: 12
 
@@ -153,7 +165,7 @@ switches:
 
     ## 19 - Right Jet Bumper ##
     s_right_jet_bumper:
-        number: 000
+        number: 1D
 
     ## 14 - Middle Spinner##
     s_m_spinner:
@@ -187,20 +199,12 @@ switches:
     s_top_lane_entry:
         number: 19
 
-    ## 37 - Left Outlane Drain ##
+    ## 37 - Left and Right Outlane Drain ##
     s_left_outlane:
         number: 01
 
-    ## 38 - Left Return Lane ##
+    ## 38 - Left and Right Return Lane ##
     s_left_return_lane:
-        number: 02
-
-    ## 39 - Right Outlane Drain ##
-    s_right_outlane:
-        number: 01
-
-    ## 40 - Right Return Lane ##
-    s_right_return_lane:
         number: 02
 
     ## Flippers (2) ##
@@ -230,37 +234,37 @@ switches:
 # Coils
 ####################
 coils:
-    ## Flippers (2) ##
-    c_left_flipper_main:
-        number: 000
-        pulse_ms: 20
-    c_left_flipper_hold:
-        number: 001
-        allow_enable: true
-    c_right_flipper_main:
-        number: 002
-        pulse_ms: 20
-    c_right_flipper_hold:
-        number: 003
-        allow_enable: true
-
-    ## Ball Trough Eject ##
-    c_trough_eject:
-        number: 004
-        pulse_ms: 20
+#    ## Flippers (2) ##
+#    c_left_flipper_main:
+#        number: 000
+#        pulse_ms: 20
+#    c_left_flipper_hold:
+#        number: 001
+#        allow_enable: true
+#    c_right_flipper_main:
+#        number: 002
+#        pulse_ms: 20
+#    c_right_flipper_hold:
+#        number: 003
+#        allow_enable: true
+#
+#    ## Ball Trough Eject ##
+#    c_trough_eject:
+#        number: 004
+#        pulse_ms: 20
 
     ## Slingshots (2) ##
     # N/A
 
-    ## Jet Bumpers (2) - Left, Right ##
-    c_left_jet_bumper:
-        number: 008
-    c_right_jet_bumper:
-        number: 009
-
-    ## Right "Tower" Eject ##
-    c_tower_eject:
-        number: 014
+#    ## Jet Bumpers (2) - Left, Right ##
+#    c_left_jet_bumper:
+#        number: 008
+#    c_right_jet_bumper:
+#        number: 009
+#
+#    ## Right "Tower" Eject ##
+#    c_tower_eject:
+#        number: 014
 
 
 ####################
@@ -316,13 +320,13 @@ ball_devices:
         eject_coil: c_trough_eject
         entrance_count_delay: 300ms
         tags: trough, home, drain
-        debug: yes
+        debug: True
 
     bd_tower_eject:
         ball_switches: s_tower_eject
         eject_coil: c_tower_eject
         eject_timeouts: 3s
-        debug: yes
+        debug: True
 
 
 ####################
@@ -332,32 +336,13 @@ autofire_coils:
     ## Slingshots (2) ##
     # N/A
 
-    ## Jet Bumpers (3) - Left, Right, Middle ##
+    ## Jet Bumpers (2) - Left, Right
     left_jet:
         coil: c_left_jet_bumper
         switch: s_left_jet_bumper
     right_jet:
         coil: c_right_jet_bumper
         switch: s_right_jet_bumper
-
-
-####################
-# Displays
-####################
-
-# N/A
-
-####################
-# Slide Player
-####################
-
-# N/A
-
-####################
-# Slides
-####################
-
-# N/A
 
 
 ####################
@@ -376,9 +361,96 @@ autofire_coils:
 
 
 
+####################
+# Lights
+####################
+leds:
+    l_planet:
+        label: l_planet
+        type: rgb
+        number: 01
+        default_color: ffffff
+        x: 0
+        y: 0
+        z: 0
+        debug: True
 
-#################
-# Virtual Platform Configuration
-#################
-virtual_platform_start_active_switches:
-    s_ball_trough_1
+    l_a_and_d:
+        label: l_a_and_d
+        type: rgb
+        number: 02
+        default_color: ffffff
+        x: 0
+        y: 0
+        z: 0
+        debug: True
+
+    l_b_and_c:
+        label: l_b_and_c
+        type: rgb
+        number: 00
+        default_color: ffffff
+        x: 0
+        y: 0
+        z: 0
+        debug: True
+
+    l_satellite:
+        label: l_satellite
+        type: rgb
+        number: 03
+        default_color: ffffff
+        x: 0
+        y: 0
+        z: 0
+        debug: True
+
+    l_a:
+        label: l_top_lane_a
+        type: rgb
+        number: 04
+        default_color: ffffff
+        x: 0
+        y: 0
+        z: 0
+        debug: True
+
+    l_b:
+        label: l_top_lane_b
+        type: rgb
+        number: 05
+        default_color: ffffff
+        x: 0
+        y: 0
+        z: 0
+        debug: True
+
+    l_5k_extra_ball:
+        label: l_5k_extra_ball
+        type: rgb
+        number: 06
+        default_color: ffffff
+        x: 0
+        y: 0
+        z: 0
+        debug: True
+
+    l_c:
+        label: l_top_lane_c
+        type: rgb
+        number: 07
+        default_color: ffffff
+        x: 0
+        y: 0
+        z: 0
+        debug: True
+
+    l_d:
+        label: l_top_lane_d
+        type: rgb
+        number: 08
+        default_color: ffffff
+        x: 0
+        y: 0
+        z: 0
+        debug: True
