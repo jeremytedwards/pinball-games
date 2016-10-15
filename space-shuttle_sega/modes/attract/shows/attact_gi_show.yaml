@@ -1,0 +1,21 @@
+#show_version=4
+
+
+####################
+# Attract GI Show
+####################
+- duration: 7s
+  leds:
+    gi_all:
+      color: blue
+      fade: 7s
+- duration: 7s
+  leds:
+    gi_all:
+      color: lime
+      fade: 7s
+- duration: 7s
+  leds:
+    gi_all:
+      color: white
+      fade: 7s

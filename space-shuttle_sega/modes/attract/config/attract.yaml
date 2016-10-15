@@ -2,6 +2,9 @@
 
 show_player:
     mode_attract_started:
-      attract_light_show:
+      attract_abcd_show:
+        action: play
+        loops: -1
+      attact_gi_show:
         action: play
         loops: -1

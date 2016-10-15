@@ -53,16 +53,16 @@ hardware:
     driverboards: fast
 
 fast:
-    # ports for PC
-#    ports: com3, com4, com5
-
     # ports for MAC
     ports: /dev/tty.usbserial-1413B, /dev/tty.usbserial-1413C
 
+    # ports for PC
+#    ports: com3, com4, com5
 
-#################
+
+####################
 # Virtual Platform Configuration
-#################
+####################
 virtual_platform_start_active_switches:
     s_ball_trough_1
 
@@ -72,90 +72,96 @@ virtual_platform_start_active_switches:
 ####################
 switches:
     ## 1 - Plumb Bob Tilt ##
-#    s_plumb_bob_tilt:
-#        number: 000
+    s_plumb_bob_tilt:
+        number: 000
+        platform: virtual
 
-#    ## 2 - Match Button - Yellow ##
-#    s_match_button:
-#        number: 000
-#
-#    ## 3 - Credit Button - Red ##
-#    s_credit_button:
-#        number: 000
+    ## 2 - Match Button - Yellow ##
+    s_match_button:
+        number: 000
+        platform: virtual
+
+    ## 3 - Credit Button - Red ##
+    s_credit_button:
+        number: 000
+        platform: virtual
 
     ## 4 - Right Coin Chute ##
-#    s_right_coin_chute:
-#        number: 000
+    s_right_coin_chute:
+        number: 000
+        platform: virtual
 
     ## 6 - Left Coin Chute ##
-#    s_left_coin_chute:
-#        number: 000
+    s_left_coin_chute:
+        number: 000
+        platform: virtual
 
     ## 8 - High Score Reset ##
-#    s_high_score_reset:
-#        number: 000
+    s_high_score_reset:
+        number: 000
+        platform: virtual
 
-    ## 11 - Ball Trough 1 ##
+    ## 03 - Ball Trough 1 ##
     s_ball_trough_1:
         number: 03
 
-    ## 13 - Tower Eject Hole ##
+    ## 06 - Tower Eject Hole ##
     s_tower_eject:
         number: 06
 
-    ## 15 - Top Left Yellow Rollover ##
+    ## 08 - Top Left Yellow Rollover ##
     s_l_yellow_rollover:
         number: 08
 
-    ## 15 - Top Right Yellow Rollover ##
+    ## 09 - Top Right Yellow Rollover ##
     s_r_yellow_rollover:
         number: 09
 
-    ## 15 - A Lane ##
+    ## 0A - A Lane ##
     s_a_lane:
         number: 0A
 
-    ## 16 - B Lane ##
+    ## 0B - B Lane ##
     s_b_lane:
         number: 0B
 
-    ## 14 - C Lane ##
+    ## 0D - C Lane ##
     s_c_lane:
         number: 0D
 
-    ## 14 - D Lane ##
+    ## 0E - D Lane ##
     s_d_lane:
         number: 0E
 
-    ## 14 - Left Red Match Stand up ##
+    ## 07 - Left Red Match Stand up ##
     s_l_match_standup:
         number: 07
 
-#    ## 14 - Middle 10k Stand up ##
-#    s_m_10k_standup:
-#        number: 000
+    ## 0C - Middle 10k Stand up ##
+    s_m_10k_standup:
+        number: 0C
 
-    ## 14 - Right 5k Stand up ##
+    ## 0F - Right 5k Stand up ##
     s_r_5k_standup:
         number: 0F
 
-    ## 14 - Right 10k Stand up - Captive Ball ##
+    ## 1A - Right 10k Stand up - Captive Ball ##
     s_r_10k_standup:
         number: 1A
 
-    ## 14 - Right Captive Ball 1 - Top ##
+    ## 1B - Right Captive Ball 1 - Top ##
     s_r_captive_1:
         number: 1B
 
-    ## 14 - Right Captive Ball 2 - Bottom ##
+    ## 18 - Right Captive Ball 2 - Bottom ##
     s_r_captive_2:
         number: 18
 
-    ## 14 - Left 5k Advance Bonus - Above Spinner ##
+    ## 15 - Left 5k Advance Bonus - Above Spinner ##
     s_l_5k_advance_bonus:
         number: 15
 
-    ## 14 - Left Spinner ##
+    ## 12 - Left Spinner ##
     s_l_spinner:
         number: 12
 
@@ -163,56 +169,52 @@ switches:
     s_left_jet_bumper:
         number: 17
 
-    ## 19 - Right Jet Bumper ##
+    ## 1D - Right Jet Bumper ##
     s_right_jet_bumper:
         number: 1D
 
-    ## 14 - Middle Spinner##
+    ## 13 - Middle Spinner##
     s_m_spinner:
         number: 13
 
-    ## 14 - Center Star Rollover - Top 1 ##
+    ## 16 - Center Star Rollover - Top 1 ##
     s_m_star_rollover_1:
         number: 16
 
-    ## 14 - Center Star Rollover - Second From Top 2 ##
+    ## 11 - Center Star Rollover - Second From Top 2 ##
     s_m_star_rollover_2:
         number: 11
 
-    ## 14 - Center Star Rollover - Third From Top 3 ##
+    ## 10 - Center Star Rollover - Third From Top 3 ##
     s_m_star_rollover_3:
         number: 10
 
-    ## 14 - Center Star Rollover - Bottom 4 ##
+    ## 05 - Center Star Rollover - Bottom 4 ##
     s_m_star_rollover_4:
         number: 05
 
-    ## 18 - Left Kicker(Slingshot) ##
+    ## 14 - Left and Right Slingshot ##
     s_left_slingshot:
         number: 04
 
-    ## 20 - Right Kicker(Slingshot) ##
-    s_right_slingshot:
-        number: 04
-
-    ## 23 - Top Lane Entry ##
+    ## 19 - Ball Launch Lane - Playfield Entry ##
     s_top_lane_entry:
         number: 19
 
-    ## 37 - Left and Right Outlane Drain ##
+    ## 01 - Left and Right Outlane Drain ##
     s_left_outlane:
         number: 01
 
-    ## 38 - Left and Right Return Lane ##
+    ## 02 - Left and Right Return Lane ##
     s_left_return_lane:
         number: 02
 
     ## Flippers (2) ##
-    ## 00 - Right Flipper / Lane Change ##
+    ## 1E - Right Flipper / Lane Change ##
     s_right_flipper:
         number: 1E
 
-    ## 00 - Left Flipper / Lane Change ##
+    ## 1F - Left Flipper / Lane Change ##
     s_left_flipper:
         number: 1F
 
@@ -223,48 +225,46 @@ switches:
     s_start:
         number:
         tags: start
+        platform: virtual
 
     ## Launch Button - [Used in Testing] ##
     s_launch_button:
         number:
         tags: launch
+        platform: virtual
 
 
 ####################
 # Coils
 ####################
 coils:
-#    ## Flippers (2) ##
-#    c_left_flipper_main:
-#        number: 000
-#        pulse_ms: 20
-#    c_left_flipper_hold:
-#        number: 001
-#        allow_enable: true
-#    c_right_flipper_main:
-#        number: 002
-#        pulse_ms: 20
-#    c_right_flipper_hold:
-#        number: 003
-#        allow_enable: true
-#
-#    ## Ball Trough Eject ##
-#    c_trough_eject:
-#        number: 004
-#        pulse_ms: 20
+    ## Flippers (2) ##
+    c_left_flipper_main:
+        number: 01
+        pulse_ms: 20
+        allow_enable: true
+        hold_power: 2
 
-    ## Slingshots (2) ##
-    # N/A
+    c_right_flipper_main:
+        number: 02
+        pulse_ms: 20
+        allow_enable: true
+        hold_power: 2
 
-#    ## Jet Bumpers (2) - Left, Right ##
-#    c_left_jet_bumper:
-#        number: 008
-#    c_right_jet_bumper:
-#        number: 009
-#
-#    ## Right "Tower" Eject ##
-#    c_tower_eject:
-#        number: 014
+    ## Ball Trough Eject ##
+    c_trough_eject:
+        number: 03
+        pulse_ms: 20
+
+    ## Jet Bumpers (2) - Left, Right ##
+    c_left_jet_bumper:
+        number: 05
+    c_right_jet_bumper:
+        number: 06
+
+    ## Right "Tower" Eject ##
+    c_tower_eject:
+        number: 00
 
 
 ####################
@@ -301,14 +301,12 @@ keyboard:
 flippers:
     left_flipper:
         main_coil: c_left_flipper_main
-        hold_coil: c_left_flipper_hold
         activation_switch: s_left_flipper
-#        enable_events: machine_reset_phase_3
+        enable_events: machine_reset_phase_3 #Comment out: enabled for testing
     right_flipper:
         main_coil: c_right_flipper_main
-        hold_coil: c_right_flipper_hold
         activation_switch: s_right_flipper
-#        enable_events: machine_reset_phase_3
+        enable_events: machine_reset_phase_3 #Comment out: enabled for testing
 
 
 ####################
@@ -333,9 +331,6 @@ ball_devices:
 # Auto-Fire Coils
 ####################
 autofire_coils:
-    ## Slingshots (2) ##
-    # N/A
-
     ## Jet Bumpers (2) - Left, Right
     left_jet:
         coil: c_left_jet_bumper
@@ -346,23 +341,7 @@ autofire_coils:
 
 
 ####################
-# Modes
-####################
-#modes:
-#  # Priority 1,000,000
-#  - tilt
-
-#  # Priority 500
-#  - high_score
-
-  # Priority 100
-#  - base
-#  - skill_shot
-
-
-
-####################
-# Lights
+# Lights - Playfield
 ####################
 leds:
     l_planet:
@@ -454,3 +433,150 @@ leds:
         y: 0
         z: 0
         debug: True
+
+
+####################
+# Lights - General Illumination
+####################
+    l_gi_89:
+        tags: gi_all
+        type: grb
+        number: 89
+        default_color: ffffff
+    l_gi_8A:
+        tags: gi_all
+        type: grb
+        number: 8A
+        default_color: ffffff
+    l_gi_8B:
+        tags: gi_all
+        type: grb
+        number: 8B
+        default_color: ffffff
+    l_gi_8C:
+        tags: gi_all
+        type: grb
+        number: 8C
+        default_color: ffffff
+    l_gi_90:
+        tags: gi_all
+        type: grb
+        number: 90
+        default_color: ffffff
+    l_gi_92:
+        tags: gi_all
+        type: grb
+        number: 92
+        default_color: ffffff
+    l_gi_93:
+        tags: gi_all
+        type: grb
+        number: 93
+        default_color: ffffff
+    l_gi_96:
+        tags: gi_all
+        type: grb
+        number: 96
+        default_color: ffffff
+    l_gi_97:
+        tags: gi_all
+        type: grb
+        number: 97
+        default_color: ffffff
+    l_gi_99:
+        tags: gi_all
+        type: grb
+        number: 99
+        default_color: ffffff
+    l_gi_9A:
+        tags: gi_all
+        type: grb
+        number: 9A
+        default_color: ffffff
+    l_gi_9B:
+        tags: gi_all
+        type: grb
+        number: 9B
+        default_color: ffffff
+    l_gi_9C:
+        tags: gi_all
+        type: grb
+        number: 9C
+        default_color: ffffff
+    l_gi_9D:
+        tags: gi_all
+        type: grb
+        number: 9D
+        default_color: ffffff
+    l_gi_9E:
+        tags: gi_all
+        type: grb
+        number: 9E
+        default_color: ffffff
+    l_gi_9F:
+        tags: gi_all
+        type: grb
+        number: 9F
+        default_color: ffffff
+    l_gi_A2:
+        tags: gi_all
+        type: grb
+        number: A2
+        default_color: ffffff
+    l_gi_A3:
+        tags: gi_all
+        type: grb
+        number: A3
+        default_color: ffffff
+    l_gi_A6:
+        tags: gi_all
+        type: grb
+        number: A6
+        default_color: ffffff
+    l_gi_A7:
+        tags: gi_all
+        type: grb
+        number: A7
+        default_color: ffffff
+    l_gi_AB:
+        tags: gi_all
+        type: grb
+        number: AB
+        default_color: ffffff
+    l_gi_AC:
+        tags: gi_all
+        type: grb
+        number: AC
+        default_color: ffffff
+    l_gi_AD:
+        tags: gi_all
+        type: grb
+        number: AD
+        default_color: ffffff
+    l_gi_AE:
+        tags: gi_all
+        type: grb
+        number: AE
+        default_color: ffffff
+
+
+####################
+# Modes
+####################
+#modes:
+#  # Priority 1,000,000
+#  - tilt
+
+#  # Priority 500
+#  - high_score
+
+  # Priority 100
+#  - base
+#  - skill_shot
+
+
+####################
+# Players
+####################
+
+            
