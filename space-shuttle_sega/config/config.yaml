@@ -16,12 +16,12 @@
 # Created:
 #     August 28, 2016
 # Created by:
-#     Jeremy T. Edwards - jeremytedwards@gmail.com
+#     Jeremy T. Edwards - pinman2020@gmail.com
 #
 # Updated:
-#     October 14, 2016
+#     October 15, 2016
 # Updated by:
-#     Jeremy T. Edwards - jeremytedwards@gmail.com
+#     Jeremy T. Edwards - pinman2020@gmail.com
 # Version:
 #     0.2
 #
@@ -50,8 +50,7 @@
 hardware:
     platform: fast
     driverboards: fast
-#    driverboards: wpc
-#
+
 fast:
     ports: com3, com4, com5
 
@@ -313,9 +312,8 @@ flippers:
 ####################
 ball_devices:
     bd_trough:
-        ball_switches: s_ball_trough_1, s_ball_trough_2
+        ball_switches: s_ball_trough_1
         eject_coil: c_trough_eject
-        eject_targets: bd_plunger
         entrance_count_delay: 300ms
         tags: trough, home, drain
         debug: yes
@@ -327,29 +325,12 @@ ball_devices:
         debug: yes
 
 
-    ## Shooter Lane Auto-launch ##
-    ## Not in standard game ##
-    bd_plunger:
-        ball_switches: s_ball_shooter_lane
-        eject_coil: c_plunger_eject
-        eject_timeouts: 3s
-        mechanical_eject: true
-        player_controlled_eject_event: sw_launch
-        tags: ball_add_live
-        debug: yes
-
-
 ####################
 # Auto-Fire Coils
 ####################
 autofire_coils:
     ## Slingshots (2) ##
-    left_slingshot:
-        coil: c_left_slingshot
-        switch: s_left_slingshot
-    right_slingshot:
-        coil: c_right_slingshot
-        switch: s_right_slingshot
+    # N/A
 
     ## Jet Bumpers (3) - Left, Right, Middle ##
     left_jet:
@@ -401,4 +382,3 @@ autofire_coils:
 #################
 virtual_platform_start_active_switches:
     s_ball_trough_1
-    s_ball_trough_2
