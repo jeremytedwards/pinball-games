@@ -164,6 +164,7 @@ switches:
     ## 12 - Left Spinner ##
     s_l_spinner:
         number: 12
+        type: NC
 
     ## 17 - Left Jet Bumper ##
     s_left_jet_bumper:
@@ -176,6 +177,7 @@ switches:
     ## 13 - Middle Spinner##
     s_m_spinner:
         number: 13
+        type: NC
 
     ## 16 - Center Star Rollover - Top 1 ##
     s_m_star_rollover_1:
@@ -218,20 +220,15 @@ switches:
     s_left_flipper:
         number: 1F
 
+    ## Match Button  ##
+    s_match:
+        number: 26
 
-## Switches - Used in Testing ##
-
-    ## Start Button - [Used in Testing] ##
+    ## Start Button ##
     s_start:
-        number:
+        number: 27
         tags: start
-        platform: virtual
-
-    ## Launch Button - [Used in Testing] ##
-    s_launch_button:
-        number:
-        tags: launch
-        platform: virtual
+        type: NC
 
 
 ####################
@@ -302,11 +299,11 @@ flippers:
     left_flipper:
         main_coil: c_left_flipper_main
         activation_switch: s_left_flipper
-        enable_events: machine_reset_phase_3 #Comment out: enabled for testing
+#        enable_events: machine_reset_phase_3 #Comment out: enabled for testing
     right_flipper:
         main_coil: c_right_flipper_main
         activation_switch: s_right_flipper
-        enable_events: machine_reset_phase_3 #Comment out: enabled for testing
+#        enable_events: machine_reset_phase_3 #Comment out: enabled for testing
 
 
 ####################
@@ -317,7 +314,7 @@ ball_devices:
         ball_switches: s_ball_trough_1
         eject_coil: c_trough_eject
         entrance_count_delay: 300ms
-        tags: trough, home, drain
+        tags: trough, home, drain, ball_add_live
         debug: True
 
     bd_tower_eject:
