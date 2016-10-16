@@ -4,18 +4,18 @@
 ####################
 # Attract GI Show
 ####################
-- duration: 7s
+- duration: 5s
   leds:
     gi_all:
       color: blue
-      fade: 7s
-- duration: 7s
+      fade: 3s
+- duration: 5s
   leds:
     gi_all:
       color: lime
-      fade: 7s
-- duration: 7s
+      fade: 3s
+- duration: 5s
   leds:
     gi_all:
       color: white
-      fade: 7s
+      fade: 3s
