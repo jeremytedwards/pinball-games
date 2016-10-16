@@ -8,14 +8,14 @@
   leds:
     gi_all:
       color: blue
-      fade: 3s
+      fade: 2s
 - duration: 5s
   leds:
     gi_all:
       color: lime
-      fade: 3s
+      fade: 2s
 - duration: 5s
   leds:
     gi_all:
       color: white
-      fade: 3s
+      fade: 2s

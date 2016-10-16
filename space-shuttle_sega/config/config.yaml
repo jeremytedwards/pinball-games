@@ -558,6 +558,16 @@ leds:
         type: grb
         number: AE
         default_color: ffffff
+    l_gi_B0:
+        tags: gi_all
+        type: grb
+        number: B0
+        default_color: ffffff
+    l_gi_B1:
+        tags: gi_all
+        type: grb
+        number: B1
+        default_color: ffffff
 
 
 ####################
