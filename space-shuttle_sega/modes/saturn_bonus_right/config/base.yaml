@@ -1,0 +1,47 @@
+#config_version=4
+
+####################
+# Mode Properties
+####################
+mode:
+    start_events: ball_starting
+    stop_events: ball_ending
+    priority: 500
+
+####################
+# Shots
+####################
+shots:
+    shot_b_and_c:
+      switch: s_r_yellow_rollover
+      show_tokens:
+        led: l_b, l_c
+
+
+####################
+# Base - Shows
+####################
+shows:
+    shot_b_and_c_inactive:
+      - duration: -1
+        leds:
+          (led): white
+
+
+    shot_b_and_c_active:
+      - duration: -1
+        leds:
+          (led): yellow
+
+
+####################
+# Base - Shot Profiles
+####################
+shot_profiles:
+  shot_b_and_c_profile:
+      states:
+        - name: on
+           show: on
+        - name: off
+           show: off
+      loop: yes

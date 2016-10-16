@@ -104,18 +104,22 @@ switches:
     ## 03 - Ball Trough 1 ##
     s_ball_trough_1:
         number: 03
+        tags: skillshot_end
 
     ## 06 - Tower Eject Hole ##
     s_tower_eject:
         number: 06
+        tags: skillshot_end
 
     ## 08 - Top Left Yellow Rollover ##
     s_l_yellow_rollover:
         number: 08
+        tags: skillshot_end
 
     ## 09 - Top Right Yellow Rollover ##
     s_r_yellow_rollover:
         number: 09
+        tags: skillshot_end
 
     ## 0A - A Lane ##
     s_a_lane:
@@ -136,68 +140,84 @@ switches:
     ## 07 - Left Red Match Stand up ##
     s_l_match_standup:
         number: 07
+        tags: skillshot_end
 
     ## 0C - Middle 10k Stand up ##
     s_m_10k_standup:
         number: 0C
+        tags: skillshot_end
 
     ## 0F - Right 5k Stand up ##
     s_r_5k_standup:
         number: 0F
+        tags: skillshot_end
 
     ## 1A - Right 10k Stand up - Captive Ball ##
     s_r_10k_standup:
         number: 1A
+        tags: skillshot_end
 
     ## 1B - Right Captive Ball 1 - Top ##
     s_r_captive_1:
         number: 1B
+        tags: skillshot_end
 
     ## 18 - Right Captive Ball 2 - Bottom ##
     s_r_captive_2:
         number: 18
+        tags: skillshot_end
 
     ## 15 - Left 5k Advance Bonus - Above Spinner ##
     s_l_5k_advance_bonus:
         number: 15
+        tags: skillshot_end
 
     ## 12 - Left Spinner ##
     s_l_spinner:
         number: 12
+        tags: skillshot_end
         type: NC
 
     ## 17 - Left Jet Bumper ##
     s_left_jet_bumper:
         number: 17
+        tags: skillshot_end
 
     ## 1D - Right Jet Bumper ##
     s_right_jet_bumper:
         number: 1D
+        tags: skillshot_end
 
     ## 13 - Middle Spinner##
     s_m_spinner:
         number: 13
+        tags: skillshot_end
         type: NC
 
     ## 16 - Center Star Rollover - Top 1 ##
     s_m_star_rollover_1:
         number: 16
+        tags: skillshot_end
 
     ## 11 - Center Star Rollover - Second From Top 2 ##
     s_m_star_rollover_2:
         number: 11
+        tags: skillshot_end
 
     ## 10 - Center Star Rollover - Third From Top 3 ##
     s_m_star_rollover_3:
         number: 10
+        tags: skillshot_end
 
     ## 05 - Center Star Rollover - Bottom 4 ##
     s_m_star_rollover_4:
         number: 05
+        tags: skillshot_end
 
     ## 14 - Left and Right Slingshot ##
     s_left_slingshot:
         number: 04
+        tags: skillshot_end
 
     ## 19 - Ball Launch Lane - Playfield Entry ##
     s_top_lane_entry:
@@ -206,10 +226,12 @@ switches:
     ## 01 - Left and Right Outlane Drain ##
     s_left_outlane:
         number: 01
+        tags: skillshot_end
 
     ## 02 - Left and Right Return Lane ##
     s_left_return_lane:
         number: 02
+        tags: skillshot_end
 
     ## Flippers (2) ##
     ## 1E - Right Flipper / Lane Change ##
@@ -255,9 +277,9 @@ coils:
 
     ## Jet Bumpers (2) - Left, Right ##
     c_left_jet_bumper:
-        number: 05
-    c_right_jet_bumper:
         number: 06
+    c_right_jet_bumper:
+        number: 05
 
     ## Right "Tower" Eject ##
     c_tower_eject:
@@ -300,6 +322,7 @@ flippers:
         main_coil: c_left_flipper_main
         activation_switch: s_left_flipper
 #        enable_events: machine_reset_phase_3 #Comment out: enabled for testing
+
     right_flipper:
         main_coil: c_right_flipper_main
         activation_switch: s_right_flipper
@@ -570,20 +593,18 @@ leds:
 ####################
 # Modes
 ####################
-#modes:
+modes:
 #  # Priority 1,000,000
 #  - tilt
 
-#  # Priority 500
-#  - high_score
+  # Priority 500
+  - saturn_bonus_left
+  - saturn_bonus_right
+
+  # Priority 200
+  - base
 
   # Priority 100
-#  - base
-#  - skill_shot
+  - skill_shot
 
 
-####################
-# Players
-####################
-
-            
