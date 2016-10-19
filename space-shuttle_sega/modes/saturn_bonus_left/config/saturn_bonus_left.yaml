@@ -8,6 +8,7 @@ mode:
     stop_events: ball_ending
     priority: 500
 
+
 ####################
 # Shots
 ####################
@@ -41,7 +42,7 @@ shot_profiles:
   shot_a_and_d_profile:
       states:
         - name: on
-           show: on
+          show: on
         - name: off
-           show: off
+          show: off
       loop: yes

@@ -104,7 +104,6 @@ switches:
     ## 03 - Ball Trough 1 ##
     s_ball_trough_1:
         number: 03
-        tags: skillshot_end
 
     ## 06 - Tower Eject Hole ##
     s_tower_eject:
@@ -605,6 +604,6 @@ modes:
   - base
 
   # Priority 100
-  - skill_shot
+  - skillshot
 
 
