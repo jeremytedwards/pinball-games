@@ -1,0 +1,34 @@
+#config_version=4
+
+####################
+# Mode: Default
+# In this mode here is what should happen...
+####################
+
+mode:
+  priority: 100
+  start_events: ball_starting
+  stop_on_ball_end: True
+
+slide_player:
+  mode_base_started:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+      - type: text
+        text: PLAYER (number)
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball) [p,2,l,a,y,2]
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
